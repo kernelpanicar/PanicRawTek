@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>Panic Raw Tek @VERSION@</title>
+    <organization>com.panicaudio</organization>
+    <domains enable_localSystem="true"/>
+    <options customize="allow" require-scripts="true" rootVolumeOnly="true" hostArchitectures="arm64,x86_64"/>
+    <volume-check>
+        <allowed-os-versions>
+            <os-version min="11.0"/>
+        </allowed-os-versions>
+    </volume-check>
+
+    <welcome    file="welcome.html"    mime-type="text/html"/>
+    <conclusion file="conclusion.html" mime-type="text/html"/>
+    <background           file="background.png" mime-type="image/png" alignment="bottomleft" scaling="none"/>
+    <background-darkAqua  file="background.png" mime-type="image/png" alignment="bottomleft" scaling="none"/>
+
+    <choices-outline>
+        <line choice="core"/>
+        <line choice="vst3"/>
+        <line choice="au"/>
+        <line choice="app"/>
+    </choices-outline>
+
+    <choice id="core" visible="false" title="Core">
+        <pkg-ref id="com.panicaudio.panicrawtek.core"/>
+    </choice>
+    <choice id="vst3" title="VST3 plug-in"
+            description="Para Ableton Live, Bitwig, Reaper, Cubase, FL Studio y otros. Se instala en /Library/Audio/Plug-Ins/VST3.">
+        <pkg-ref id="com.panicaudio.panicrawtek.vst3"/>
+    </choice>
+    <choice id="au" title="Audio Unit (AU)"
+            description="Para Ableton Live, Logic Pro y GarageBand. Se instala en /Library/Audio/Plug-Ins/Components.">
+        <pkg-ref id="com.panicaudio.panicrawtek.au"/>
+    </choice>
+    <choice id="app" title="App standalone"
+            description="Panic Raw Tek como aplicación independiente, para tocarlo sin DAW. Se instala en /Applications.">
+        <pkg-ref id="com.panicaudio.panicrawtek.app"/>
+    </choice>
+
+    <pkg-ref id="com.panicaudio.panicrawtek.core" version="@VERSION@" onConclusion="none">core.pkg</pkg-ref>
+    <pkg-ref id="com.panicaudio.panicrawtek.vst3" version="@VERSION@" onConclusion="none">vst3.pkg</pkg-ref>
+    <pkg-ref id="com.panicaudio.panicrawtek.au"   version="@VERSION@" onConclusion="none">au.pkg</pkg-ref>
+    <pkg-ref id="com.panicaudio.panicrawtek.app"  version="@VERSION@" onConclusion="none">app.pkg</pkg-ref>
+</installer-gui-script>

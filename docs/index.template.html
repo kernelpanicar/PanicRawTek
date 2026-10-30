@@ -1,0 +1,598 @@
+<title>Panic Raw Tek</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Panic Raw Tek: synth VST3 / AU para raw techno, hard groove y techno hipnótico. 152 presets. Mac y Windows.">
+<link rel="icon" type="image/png" href="assets/icon-128.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400;75..125,600;75..125,800&family=Bebas+Neue&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: frente de equipo de rack — bandas horizontales con cinta de peligro entre secciones,
+   paneles con chaflán como en el plugin. Un solo mundo visual oscuro (la marca es negro + amarillo). */
+:root {
+  --ink: #0c0c0b;        /* fondo */
+  --panel: #151513;      /* paneles */
+  --panel-hi: #1c1c19;
+  --edge: #2e2d27;       /* bordes */
+  --yellow: #ffd60a;     /* amarillo de emergencia */
+  --red: #ff3d2e;        /* fantasma glitch / alertas */
+  --text: #ebe7da;
+  --dim: #8f8b7d;
+  --lcd: #0a0905;
+  --f-display: "Bebas Neue", "Oswald", "Impact", "Arial Narrow", sans-serif;
+  --f-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --s-1: 12px; --s-2: 14px; --s-3: 16px; --s-4: 20px; --s-5: 28px; --s-6: 44px;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+body {
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--f-body);
+  font-size: var(--s-3);
+  line-height: 1.55;
+  font-variation-settings: "wdth" 92;
+  -webkit-font-smoothing: antialiased;
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.018) 0 1px, transparent 1px 7px);
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: #0f0f0d; }
+a { color: var(--yellow); }
+:focus-visible { outline: 2px solid var(--yellow); outline-offset: 3px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+.mono { font-family: var(--f-mono); }
+.label { font-family: var(--f-mono); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); }
+
+/* ---------- barra superior */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: #0f0f0d; }
+.top .wrap { display: flex; align-items: center; gap: 20px; padding-block: 10px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand .p { font-family: var(--f-display); font-size: 34px; line-height: 1; color: var(--yellow); text-shadow: -2px 1px 0 rgba(255,61,46,0.7); }
+.tag { font-family: var(--f-display); font-size: 18px; line-height: 1; background: var(--yellow); color: #000; padding: 4px 10px 3px; clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%); }
+.top nav { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
+.top nav a { font-family: var(--f-mono); font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); text-decoration: none; }
+.top nav a:hover { color: var(--yellow); }
+.tape { height: 8px; background: repeating-linear-gradient(-45deg, var(--yellow) 0 8px, #000 8px 16px); }
+@media (max-width: 640px) { .top nav { display: none; } }
+
+/* ---------- hero */
+.hero .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 48px; align-items: center; padding-block: 56px 48px; }
+@media (max-width: 960px) { .hero .wrap { grid-template-columns: 1fr; gap: 36px; padding-block: 36px; } }
+.eyebrow { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.chip { font-family: var(--f-mono); font-size: 11px; font-weight: 700; letter-spacing: 0.1em; border: 1px solid var(--edge); color: var(--text); padding: 4px 8px; background: var(--panel); }
+.logo { font-family: var(--f-display); font-weight: 400; line-height: 0.82; margin: 0; }
+.logo .panic { display: block; font-size: clamp(104px, 17vw, 210px); color: var(--yellow); position: relative; letter-spacing: 0.01em; }
+.logo .panic::before { content: "PANIC"; position: absolute; left: -5px; top: 3px; color: var(--red); opacity: 0.65; z-index: -1; }
+.logo .rawtek { display: inline-block; margin-top: 10px; font-size: clamp(34px, 5vw, 58px); background: var(--yellow); color: #000; padding: 6px 22px 2px; clip-path: polygon(6% 0, 100% 0, 94% 100%, 0 100%); }
+.lede { font-size: var(--s-4); line-height: 1.45; max-width: 34ch; margin: 22px 0 0; text-wrap: pretty; font-variation-settings: "wdth" 88; }
+.lede strong { color: var(--yellow); font-weight: 600; }
+
+.downloads { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 28px; max-width: 520px; }
+@media (max-width: 460px) { .downloads { grid-template-columns: 1fr; } }
+.dl { display: grid; gap: 2px; text-decoration: none; padding: 14px 16px 12px; background: var(--lcd); border: 1px solid var(--edge); color: var(--text); transition: border-color .15s, transform .15s; position: relative; }
+.dl:hover { border-color: var(--yellow); transform: translateY(-2px); }
+.dl .os { font-family: var(--f-display); font-size: 30px; line-height: 1; color: var(--yellow); }
+.dl .what { font-family: var(--f-mono); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; color: var(--text); }
+.dl .req { font-family: var(--f-mono); font-size: 10.5px; color: var(--dim); }
+.dl.primary { background: var(--yellow); border-color: var(--yellow); }
+.dl.primary .os, .dl.primary .what { color: #000; }
+.dl.primary .req { color: #3d3505; }
+.dl .yours { position: absolute; top: 8px; right: 10px; font-family: var(--f-mono); font-size: 9.5px; font-weight: 700; letter-spacing: 0.1em; }
+.dl[aria-disabled="true"] { pointer-events: none; opacity: 0.55; transform: none; }
+.dl-note { font-family: var(--f-mono); font-size: 11px; color: var(--dim); margin-top: 12px; max-width: 520px; }
+
+.shot { position: relative; margin: 0; }
+.shot img { display: block; width: 100%; height: auto; border: 1px solid var(--edge); box-shadow: 0 30px 80px rgba(0,0,0,0.6), 0 0 0 6px #0f0f0d, 0 0 0 7px var(--edge); }
+.shot figcaption { margin-top: 18px; }
+
+/* ---------- secciones */
+section.band { border-top: 1px solid var(--edge); }
+section.band > .wrap { padding-block: 64px; }
+@media (max-width: 640px) { section.band > .wrap { padding-block: 44px; } }
+.sec-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 28px; }
+.sec-tag { font-family: var(--f-display); font-size: 17px; line-height: 1; background: var(--yellow); color: #000; padding: 4px 8px 2px; }
+.sec-head h2 { font-family: var(--f-display); font-weight: 400; font-size: clamp(40px, 6vw, 64px); line-height: 0.95; margin: 0; letter-spacing: 0.01em; text-wrap: balance; }
+.sec-head p { flex-basis: 100%; margin: 4px 0 0; color: var(--dim); max-width: 62ch; }
+
+.panel { background: linear-gradient(var(--panel-hi), var(--panel)); border: 1px solid var(--edge); clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%); }
+
+/* ---------- reproductor */
+.player { padding: 22px; display: grid; gap: 18px; }
+.tracks { display: flex; gap: 8px; flex-wrap: wrap; }
+.trk { font-family: var(--f-display); font-size: 19px; letter-spacing: 0.02em; background: var(--panel); border: 1px solid var(--edge); color: var(--dim); padding: 7px 14px 5px; cursor: pointer; clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 0 100%); }
+.trk[aria-pressed="true"] { background: var(--yellow); color: #000; border-color: var(--yellow); }
+.deck { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 18px; align-items: center; }
+.play { width: 72px; height: 72px; border-radius: 50%; border: 0; background: var(--yellow); color: #000; cursor: pointer; display: grid; place-items: center; box-shadow: 0 0 0 4px #000, 0 0 0 5px var(--edge); }
+.play:hover { filter: brightness(1.08); }
+.play svg { width: 28px; height: 28px; }
+.now { display: grid; gap: 2px; min-width: 0; }
+.now .preset { font-family: var(--f-display); font-size: clamp(34px, 6vw, 56px); line-height: 0.95; color: var(--yellow); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.now .meta { font-family: var(--f-mono); font-size: 12px; color: var(--dim); display: flex; gap: 14px; flex-wrap: wrap; }
+.now .meta b { color: var(--text); font-weight: 700; }
+.wave { position: relative; height: 110px; background: var(--lcd); border: 1px solid var(--edge); cursor: pointer; overflow: hidden; }
+.wave canvas { display: block; width: 100%; height: 100%; }
+.cues { display: flex; flex-wrap: wrap; gap: 6px; }
+.cue { font-family: var(--f-mono); font-size: 11.5px; font-weight: 700; background: var(--lcd); border: 1px solid var(--edge); color: var(--dim); padding: 6px 9px; cursor: pointer; display: inline-flex; gap: 8px; align-items: baseline; }
+.cue .t { color: var(--yellow); opacity: 0.6; font-weight: 500; }
+.cue.on { color: #000; background: var(--yellow); border-color: var(--yellow); }
+.cue.on .t { color: #000; }
+.player-note { font-size: var(--s-2); color: var(--dim); margin: 0; }
+
+/* ---------- motor */
+.specs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 900px) { .specs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .specs { grid-template-columns: 1fr; } }
+.spec { padding: 20px 20px 18px; display: grid; gap: 6px; align-content: start; }
+.spec .big { font-family: var(--f-display); font-size: 58px; line-height: 0.85; color: var(--yellow); }
+.spec .big small { font-size: 26px; color: var(--text); margin-left: 6px; }
+.spec h3 { margin: 6px 0 0; font-size: var(--s-3); font-weight: 800; font-variation-settings: "wdth" 80; letter-spacing: 0.02em; text-transform: uppercase; }
+.spec p { margin: 0; color: var(--dim); font-size: var(--s-2); line-height: 1.5; }
+.chain { margin-top: 12px; padding: 16px 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.chain .node { font-family: var(--f-mono); font-size: 12px; font-weight: 700; border: 1px solid var(--edge); background: var(--lcd); padding: 6px 10px; }
+.chain .node.y { border-color: var(--yellow); color: var(--yellow); }
+.chain .arr { color: var(--dim); font-family: var(--f-mono); }
+
+/* ---------- interfaz */
+.ui-switch { display: flex; gap: 8px; margin-bottom: 16px; }
+.ui-figure { margin: 0; }
+.ui-figure img { display: block; width: 100%; height: auto; border: 1px solid var(--edge); }
+.ui-figure figcaption { margin-top: 12px; color: var(--dim); font-size: var(--s-2); max-width: 70ch; }
+
+/* ---------- presets */
+.pbar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.pcat { font-family: var(--f-mono); font-size: 12px; font-weight: 700; letter-spacing: 0.04em; background: var(--panel); border: 1px solid var(--edge); color: var(--text); padding: 7px 10px; cursor: pointer; display: inline-flex; gap: 8px; }
+.pcat .n { color: var(--dim); font-weight: 500; }
+.pcat[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); color: #000; }
+.pcat[aria-pressed="true"] .n { color: #3d3505; }
+.psearch { display: flex; gap: 10px; align-items: center; margin-bottom: 16px; }
+.psearch input { flex: 1; min-width: 0; font-family: var(--f-mono); font-size: 14px; color: var(--yellow); background: var(--lcd); border: 1px solid var(--edge); padding: 10px 12px; }
+.psearch input::placeholder { color: #5f5c52; }
+.psearch .count { font-family: var(--f-mono); font-size: 12px; color: var(--dim); white-space: nowrap; }
+.plist { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1px; background: var(--edge); border: 1px solid var(--edge); }
+.plist div { background: var(--panel); padding: 9px 12px; display: grid; gap: 1px; min-width: 0; }
+.plist .nm { font-weight: 600; font-size: 14.5px; font-variation-settings: "wdth" 85; overflow-wrap: anywhere; }
+.plist .ct { font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--dim); }
+.plist .empty { grid-column: 1 / -1; color: var(--dim); }
+.refs { margin-top: 18px; color: var(--dim); font-size: var(--s-2); max-width: 72ch; }
+
+/* ---------- instalación */
+.os-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+.steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; counter-reset: s; }
+.steps li { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; align-items: start; padding: 14px 16px; }
+.steps li::before { counter-increment: s; content: counter(s, decimal-leading-zero); font-family: var(--f-display); font-size: 26px; line-height: 1; color: #000; background: var(--yellow); text-align: center; padding: 6px 0 3px; }
+.steps b { font-weight: 700; }
+.steps code, .warn code { font-family: var(--f-mono); font-size: 0.86em; background: var(--lcd); border: 1px solid var(--edge); padding: 1px 5px; color: var(--yellow); }
+.warn { margin-top: 14px; padding: 14px 16px; border-left: 4px solid var(--red); background: var(--panel); font-size: var(--s-2); color: var(--text); }
+.warn strong { color: var(--red); font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; display: block; margin-bottom: 4px; }
+
+/* ---------- faq + footer */
+.faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 760px) { .faq { grid-template-columns: 1fr; } }
+.faq .panel { padding: 18px 20px; }
+.faq h3 { margin: 0 0 6px; font-size: var(--s-3); font-weight: 800; font-variation-settings: "wdth" 85; }
+.faq p { margin: 0; color: var(--dim); font-size: var(--s-2); }
+footer .wrap { padding-block: 28px 40px; display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: center; justify-content: space-between; }
+footer .mono { font-size: 12px; color: var(--dim); }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Panic Raw Tek, inicio"><span class="p">PANIC</span><span class="tag">RAW TEK</span></a>
+    <nav aria-label="Secciones">
+      <a href="#sonido">Sonido</a><a href="#motor">Motor</a><a href="#presets">Presets</a><a href="#instalar">Instalar</a>
+    </nav>
+  </div>
+  <div class="tape" aria-hidden="true"></div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">
+          <span class="chip">VST3</span><span class="chip">AU</span><span class="chip">STANDALONE</span><span class="chip">MAC + WINDOWS</span>
+        </div>
+        <h1 class="logo"><span class="panic">PANIC</span><span class="rawtek">RAW TEK</span></h1>
+        <p class="lede">Synth para <strong>raw techno, hard groove</strong> y techno hipnótico. Stabs con dub delay, supersaws rave, bleeps FM, metales y un kit entero de percusión sintetizada. <strong>152 presets</strong> listos para el loop.</p>
+        <div class="downloads" id="descargar">
+          <a class="dl" id="dl-mac" href="#instalar">
+            <span class="yours" hidden>TU SISTEMA</span>
+            <span class="os">MAC</span>
+            <span class="what">Instalador .pkg</span>
+            <span class="req">macOS 11+ · Apple Silicon e Intel</span>
+          </a>
+          <a class="dl" id="dl-win" href="#instalar">
+            <span class="yours" hidden>TU SISTEMA</span>
+            <span class="os">WINDOWS</span>
+            <span class="what">Instalador .exe</span>
+            <span class="req">Windows 10 / 11 · 64 bits</span>
+          </a>
+        </div>
+        <p class="dl-note" id="dl-note">Versión <span id="ver">3.1.0</span> · VST3 para Ableton Live, FL Studio, Bitwig, Reaper y Cubase · AU para Ableton y Logic</p>
+      </div>
+      <figure class="shot">
+        <img src="assets/ui-matrix.jpg" width="1320" height="672" alt="Interfaz de Panic Raw Tek: osciladores, filtro, envolventes, resonador, LFOs, osciloscopio y matriz de modulación en negro y amarillo">
+      </figure>
+    </div>
+  </section>
+
+  <div class="tape" aria-hidden="true"></div>
+
+  <section class="band" id="sonido">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">SCOPE</span>
+        <h2>Escuchalo</h2>
+        <p>Dos demos de 30 segundos hechos solo con el plugin, sin samples. El nombre de cada preset aparece mientras suena; tocá cualquiera para saltar a ese momento.</p>
+      </div>
+      <div class="panel player">
+        <div class="tracks" role="group" aria-label="Elegir demo">
+          <button class="trk" id="trk-hardgroove" aria-pressed="true" data-track="hardgroove">Hard Groove · 148 BPM</button>
+          <button class="trk" id="trk-grooverave" aria-pressed="false" data-track="grooverave">Groove + Rave · 145 BPM</button>
+        </div>
+        <div class="deck">
+          <button class="play" id="play" aria-label="Reproducir">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-icon" d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg>
+          </button>
+          <div class="now">
+            <span class="label">Sonando</span>
+            <span class="preset" id="now-preset">Broom Stab</span>
+            <span class="meta"><span>Categoría <b id="now-cat">Hard Groove</b></span><span id="now-time">0:00 / 0:31</span></span>
+          </div>
+        </div>
+        <div class="wave" id="wave" role="slider" tabindex="0" aria-label="Posición del demo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><canvas id="wave-c"></canvas></div>
+        <div class="cues" id="cues"></div>
+        <p class="player-note" id="track-note"></p>
+      </div>
+      <audio id="a-hardgroove" src="assets/demo-hardgroove.mp3" preload="metadata"></audio>
+      <audio id="a-grooverave" src="assets/demo-groove-rave.mp3" preload="metadata"></audio>
+    </div>
+  </section>
+
+  <section class="band" id="motor">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">ENGINE</span>
+        <h2>Qué hay adentro</h2>
+        <p>Dos osciladores que se abren en supersaws de 7 voces, un ladder que satura, un resonador metálico y una cadena de efectos pensada para el dub y el rumble.</p>
+      </div>
+      <div class="specs">
+        <div class="panel spec"><span class="big">7<small>voces</small></span><h3>Unison por oscilador</h3><p>Supersaw y hoover con detune y spread estéreo en cada uno de los dos osciladores. Saw, square, pulse y triangle.</p></div>
+        <div class="panel spec"><span class="big">4<small>modos</small></span><h3>Filtro ladder</h3><p>LP24, LP12, BP y HP con drive, saturación interna y auto-oscilación. Key tracking y envolvente bipolar.</p></div>
+        <div class="panel spec"><span class="big">FM<small>+ ring + sync</small></span><h3>Sección metal</h3><p>FM de fase con su propia envolvente, ring mod y hard sync. Pitch envelope de −24 a +48 semitonos para toms, zaps y kicks.</p></div>
+        <div class="panel spec"><span class="big">8<small>slots</small></span><h3>Matriz de modulación</h3><p>LFO 1 y 2, envolventes, velocity, nota, random por nota, mod wheel y aftertouch hacia 16 destinos.</p></div>
+        <div class="panel spec"><span class="big">1/32<small>sync</small></span><h3>Dos LFOs</h3><p>Seis formas de onda, libres o sincronizadas al tempo del DAW: de 4/1 a 1/32, con tresillos y puntillos.</p></div>
+        <div class="panel spec"><span class="big">4×<small>oversampling</small></span><h3>Distorsión</h3><p>Soft, hard, wavefolder y bitcrusher, con dry/wet. El resonador comb afinado a la nota hace cuerdas, tubos y campanas.</p></div>
+      </div>
+      <div class="panel chain" aria-label="Cadena de efectos">
+        <span class="label">Cadena</span>
+        <span class="node y">OSC A + B</span><span class="arr">→</span><span class="node y">LADDER</span><span class="arr">→</span><span class="node y">RESONATOR</span><span class="arr">→</span>
+        <span class="node">DIST 4×</span><span class="arr">→</span><span class="node">CHORUS</span><span class="arr">→</span><span class="node">DUB DELAY</span><span class="arr">→</span><span class="node">REVERB FDN</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="interfaz">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">PANEL</span>
+        <h2>Todo a la vista</h2>
+        <p>Una sola pantalla, como un equipo de rack. Abajo cambiás entre la matriz y el rack de efectos. La ventana escala de 75 % a 130 % para laptops y monitores grandes.</p>
+      </div>
+      <div class="ui-switch" role="group" aria-label="Vista de la interfaz">
+        <button class="trk" id="ui-btn-matrix" aria-pressed="true" data-ui="matrix">Mod Matrix</button>
+        <button class="trk" id="ui-btn-fx" aria-pressed="false" data-ui="fx">FX Rack</button>
+      </div>
+      <figure class="ui-figure">
+        <img id="ui-img" src="assets/ui-matrix.jpg" width="1320" height="672" alt="Panic Raw Tek con la pestaña Mod Matrix abierta">
+        <figcaption id="ui-cap">Preset cargado: Euphoric Lead. LFO 2 modula el pitch para el vibrato y la mod wheel abre el filtro.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band" id="presets">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">PRESETS</span>
+        <h2>152 presets incluidos</h2>
+        <p>Vienen adentro del plugin, ordenados por categoría en el menú. Nivelados para que al cambiar de uno a otro no salte el volumen.</p>
+      </div>
+      <div class="pbar" id="pbar" role="group" aria-label="Filtrar por categoría"></div>
+      <div class="psearch">
+        <label class="label" for="psearch">Buscar</label>
+        <input id="psearch" type="search" placeholder="hoover, tom, dub, bleep…" autocomplete="off">
+        <span class="count" id="pcount"></span>
+      </div>
+      <div class="plist" id="plist"></div>
+      <p class="refs">Las categorías Hard Groove, Groove Perc y Old School siguen la línea del hard groove y el "modern old school techno" de hoy: herramientas cortas para loops, órganos y hoovers de los 90, bleeps, congas, cowbell, rides y toms.</p>
+    </div>
+  </section>
+
+  <section class="band" id="instalar">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">SETUP</span>
+        <h2>Instalación</h2>
+        <p>Cerrá tu DAW antes de instalar. Los instaladores eligen solos las carpetas estándar de plugins.</p>
+      </div>
+      <div class="os-tabs" role="group" aria-label="Sistema operativo">
+        <button class="trk" id="os-btn-mac" aria-pressed="true" data-os="mac">Mac</button>
+        <button class="trk" id="os-btn-win" aria-pressed="false" data-os="win">Windows</button>
+      </div>
+      <div id="os-mac">
+        <ol class="steps">
+          <li class="panel"><span>Descargá <b>Panic Raw Tek macOS.pkg</b> y abrilo. Podés elegir VST3, Audio Unit y la app standalone en <b>Personalizar</b>.</span></li>
+          <li class="panel"><span>Se instala en <code>/Library/Audio/Plug-Ins</code> y la app en <code>/Applications</code>. Si tenías el viejo RawTek, se reemplaza.</span></li>
+          <li class="panel"><span>En Ableton: <b>Settings → Plug-Ins</b>, activá <i>Use Audio Units v2</i> o <i>Use VST3 Plug-In System Folders</i>, mantené <b>Option (⌥)</b> y hacé click en <b>Rescan</b>.</span></li>
+          <li class="panel"><span>Lo encontrás en <b>Plug-Ins → Panic Audio → Panic Raw Tek</b>.</span></li>
+        </ol>
+        <div class="warn"><strong>SI MACOS NO LO DEJA ABRIR</strong>El instalador no tiene firma de Apple. Hacé click derecho sobre el .pkg → <b>Abrir</b>, o andá a <i>Configuración del Sistema → Privacidad y seguridad → Abrir igualmente</i>.</div>
+      </div>
+      <div id="os-win" hidden>
+        <ol class="steps">
+          <li class="panel"><span>Descargá <b>Panic Raw Tek Windows Setup.exe</b> y ejecutalo. El asistente está en español.</span></li>
+          <li class="panel"><span>El VST3 se instala en <code>C:\Program Files\Common Files\VST3</code> y la app standalone queda en el menú Inicio.</span></li>
+          <li class="panel"><span>En tu DAW, volvé a escanear plugins. En Ableton: <b>Settings → Plug-Ins</b>, activá <i>Use VST3 Plug-In System Folders</i> y hacé click en <b>Rescan</b>.</span></li>
+          <li class="panel"><span>Para desinstalar: <b>Configuración → Aplicaciones → Panic Raw Tek</b>.</span></li>
+        </ol>
+        <div class="warn"><strong>SI APARECE "WINDOWS PROTEGIÓ SU PC"</strong>El instalador no tiene firma de código. Hacé click en <b>Más información → Ejecutar de todas formas</b>.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="faq">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-tag">FAQ</span><h2>Preguntas</h2></div>
+      <div class="faq">
+        <div class="panel"><h3>¿En qué DAWs funciona?</h3><p>En cualquiera que cargue VST3: Ableton Live, FL Studio, Bitwig, Reaper, Cubase, Studio One. En Mac también como Audio Unit para Ableton, Logic y GarageBand.</p></div>
+        <div class="panel"><h3>¿Puedo guardar mis propios sonidos?</h3><p>Sí. El botón SAVE guarda el sonido actual en la categoría User. Son archivos .rtkpreset que podés copiar y compartir.</p></div>
+        <div class="panel"><h3>¿Cuánta CPU usa?</h3><p>Con 8 notas de supersaw a 7 voces de unison y todos los efectos prendidos, alrededor del 7 % de un núcleo.</p></div>
+        <div class="panel"><h3>¿Tiene versión standalone?</h3><p>Sí, en Mac y Windows. Sirve para probar presets con un teclado MIDI sin abrir el DAW.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="tape" aria-hidden="true"></div>
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Volver arriba"><span class="p">PANIC</span><span class="tag">RAW TEK</span></a>
+    <span class="mono">Panic Audio · v<span id="ver2">3.1.0</span> · VST3 / AU / Standalone · macOS 11+ · Windows 10/11</span>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   Configuración de descargas
+   Poné tu usuario/repositorio de GitHub (ej. "panicaudio/panic-raw-tek").
+   El workflow publica en cada Release: PanicRawTek-macOS.pkg y PanicRawTek-Windows-Setup.exe
+   ============================================================ */
+const CONFIG = {
+  repo: "__REPO__",
+  version: "3.1.0",
+};
+
+const DATA = __DATA__;
+
+const CUES = {
+  hardgroove: {
+    title: "Hard Groove · 148 BPM",
+    note: "Debajo: Raw Kick + rumble, y entra de a poco el kit Groove Perc (HG Conga Low, Cowbell 808, Closed Hat Tight, Ride Metal, Noise Clap, Shaker Groove, Tribal Tom). Bajo: Hard Groove Bass.",
+    list: [[0, "Broom Stab", "Hard Groove"], [3.24, "Hyperdrive Riff", "Hard Groove"], [6.49, "Federation Stab", "Hard Groove"],
+           [9.73, "Organ Hit 93", "Hard Groove"], [12.97, "Surgeon Loop", "Old School"], [16.22, "Mutual Dub", "Hard Groove"],
+           [19.46, "Hoover Hit", "Hard Groove"], [22.70, "Mentasm Stab", "Old School"], [25.95, "Formant Stab", "Old School"]],
+  },
+  grooverave: {
+    title: "Groove + Rave · 145 BPM",
+    note: "Debajo: Raw Kick, rumble y hats con Tick Noise. Cada preset suena 2 compases.",
+    list: [[0, "Hard Groove Stab", "Rave"], [3.31, "Hypno Stab", "Groove"], [6.62, "Rolling Bass", "Bass"],
+           [9.93, "Mental Bleep", "Groove"], [13.24, "Rave Hoover", "Rave"], [16.55, "Dub Chord Deep", "Groove"],
+           [19.86, "Anvil Hit", "Metal"], [23.17, "Trance Gate", "Rave"]],
+  },
+};
+
+/* ---------- descargas */
+(function setupDownloads() {
+  let repo = (CONFIG.repo || "").trim();
+  if (!repo || repo.startsWith("__")) {
+    // En GitHub Pages (usuario.github.io/repo) se detecta solo
+    const h = location.hostname, parts = location.pathname.split("/").filter(Boolean);
+    if (/\.github\.io$/i.test(h) && parts.length) repo = h.split(".")[0] + "/" + parts[0];
+  }
+  const ready = repo && !repo.startsWith("__");
+  document.getElementById("ver").textContent = CONFIG.version;
+  document.getElementById("ver2").textContent = CONFIG.version;
+  const mac = document.getElementById("dl-mac"), win = document.getElementById("dl-win");
+  if (ready) {
+    const base = "https://github.com/" + repo + "/releases/latest/download/";
+    mac.href = base + "PanicRawTek-macOS.pkg";
+    win.href = base + "PanicRawTek-Windows-Setup.exe";
+    for (const a of [mac, win]) { a.target = "_blank"; a.rel = "noopener"; }
+  } else {
+    for (const a of [mac, win]) { a.setAttribute("aria-disabled", "true"); a.removeAttribute("href"); a.querySelector(".what").textContent = "Próximamente"; }
+    document.getElementById("dl-note").textContent = "Los instaladores se publican en breve. Mientras tanto, escuchá los demos.";
+  }
+  const ua = navigator.userAgent || "";
+  const isWin = /Windows/i.test(ua), isMac = /Macintosh|Mac OS X/i.test(ua) && !/iPhone|iPad/i.test(ua);
+  const mine = isWin ? win : (isMac ? mac : null);
+  if (mine) { mine.classList.add("primary"); mine.querySelector(".yours").hidden = false; }
+  else mac.classList.add("primary");
+  if (isWin) setOS("win");
+})();
+
+/* ---------- tabs genéricos */
+function pressGroup(btns, active) { btns.forEach(b => b.setAttribute("aria-pressed", String(b === active))); }
+
+function setOS(os) {
+  document.getElementById("os-mac").hidden = os !== "mac";
+  document.getElementById("os-win").hidden = os !== "win";
+  pressGroup([...document.querySelectorAll("[data-os]")], document.querySelector('[data-os="' + os + '"]'));
+}
+document.querySelectorAll("[data-os]").forEach(b => b.addEventListener("click", () => setOS(b.dataset.os)));
+
+const UI = {
+  matrix: ["assets/ui-matrix.jpg", "Panic Raw Tek con la pestaña Mod Matrix abierta", "Preset cargado: Euphoric Lead. LFO 2 modula el pitch para el vibrato y la mod wheel abre el filtro."],
+  fx: ["assets/ui-fx.jpg", "Panic Raw Tek con la pestaña FX Rack abierta", "FX Rack: distorsión con oversampling, chorus, dub delay sincronizado con ping-pong y reverb FDN con predelay y low cut."],
+};
+document.querySelectorAll("[data-ui]").forEach(b => b.addEventListener("click", () => {
+  const u = UI[b.dataset.ui];
+  const img = document.getElementById("ui-img");
+  img.src = u[0]; img.alt = u[1];
+  document.getElementById("ui-cap").textContent = u[2];
+  pressGroup([...document.querySelectorAll("[data-ui]")], b);
+}));
+
+/* ---------- reproductor */
+const player = (function () {
+  let track = "hardgroove";
+  const audios = { hardgroove: document.getElementById("a-hardgroove"), grooverave: document.getElementById("a-grooverave") };
+  const canvas = document.getElementById("wave-c"), wave = document.getElementById("wave");
+  const playBtn = document.getElementById("play"), icon = document.getElementById("play-icon");
+  const cuesEl = document.getElementById("cues");
+  const fmt = s => Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0");
+  const audio = () => audios[track];
+  const dur = () => (isFinite(audio().duration) && audio().duration > 0) ? audio().duration : DATA[track].dur;
+
+  function cueIndex(t) {
+    const l = CUES[track].list; let i = 0;
+    for (let k = 0; k < l.length; k++) if (t >= l[k][0] - 0.02) i = k;
+    return i;
+  }
+
+  function buildCues() {
+    cuesEl.innerHTML = "";
+    CUES[track].list.forEach(([t, name], i) => {
+      const b = document.createElement("button");
+      b.className = "cue"; b.type = "button";
+      b.innerHTML = '<span class="t">' + fmt(t) + "</span>" + name;
+      b.addEventListener("click", () => { seek(t + 0.01); if (audio().paused) toggle(); });
+      cuesEl.appendChild(b);
+    });
+    document.getElementById("track-note").textContent = CUES[track].note;
+  }
+
+  function draw() {
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    if (canvas.width !== Math.round(w * dpr)) { canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr); }
+    const ctx = canvas.getContext("2d");
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+    const peaks = DATA[track].peaks, n = peaks.length;
+    const t = audio().currentTime || 0, frac = Math.min(1, t / dur());
+    // marcas de cada preset
+    const css = getComputedStyle(document.documentElement);
+    const yellow = css.getPropertyValue("--yellow").trim(), edge = css.getPropertyValue("--edge").trim();
+    CUES[track].list.forEach(([ct]) => {
+      const x = Math.round(ct / dur() * w) + 0.5;
+      ctx.fillStyle = edge; ctx.fillRect(x, 0, 1, h);
+    });
+    const bw = w / n;
+    for (let i = 0; i < n; i++) {
+      const v = Math.max(0.04, peaks[i]);
+      const bh = v * (h - 14);
+      const x = i * bw;
+      ctx.fillStyle = (i / n) <= frac ? yellow : "#4a4639";
+      ctx.fillRect(x + 0.5, (h - bh) / 2, Math.max(1, bw - 1.5), bh);
+    }
+    // cabezal
+    const px = frac * w;
+    ctx.fillStyle = "#ff3d2e"; ctx.fillRect(px - 1, 0, 2, h);
+    // estado
+    const i = cueIndex(t), c = CUES[track].list[i];
+    document.getElementById("now-preset").textContent = c[1];
+    document.getElementById("now-cat").textContent = c[2];
+    document.getElementById("now-time").textContent = fmt(t) + " / " + fmt(dur());
+    wave.setAttribute("aria-valuenow", String(Math.round(frac * 100)));
+    [...cuesEl.children].forEach((el, k) => el.classList.toggle("on", k === i));
+  }
+
+  let raf = 0;
+  function loop() { draw(); if (!audio().paused) raf = requestAnimationFrame(loop); }
+
+  function setIcon(playing) {
+    icon.setAttribute("d", playing ? "M6 4.5h4.5v15H6zM13.5 4.5H18v15h-4.5z" : "M7 4.5v15l13-7.5z");
+    playBtn.setAttribute("aria-label", playing ? "Pausar" : "Reproducir");
+  }
+  function toggle() {
+    const a = audio();
+    if (a.paused) { a.play().then(() => { setIcon(true); cancelAnimationFrame(raf); loop(); }).catch(() => {}); }
+    else { a.pause(); setIcon(false); }
+  }
+  function seek(t) { audio().currentTime = Math.max(0, Math.min(dur() - 0.05, t)); draw(); }
+  function setTrack(k) {
+    if (k === track) return;
+    const wasPlaying = !audio().paused;
+    audio().pause(); audio().currentTime = 0;
+    track = k; buildCues(); setIcon(false); draw();
+    pressGroup([...document.querySelectorAll("[data-track]")], document.querySelector('[data-track="' + k + '"]'));
+    if (wasPlaying) toggle();
+  }
+
+  playBtn.addEventListener("click", toggle);
+  Object.values(audios).forEach(a => {
+    a.addEventListener("ended", () => { setIcon(false); draw(); });
+    a.addEventListener("loadedmetadata", draw);
+  });
+  wave.addEventListener("click", e => { const r = wave.getBoundingClientRect(); seek((e.clientX - r.left) / r.width * dur()); });
+  wave.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") { seek((audio().currentTime || 0) + 2); e.preventDefault(); }
+    if (e.key === "ArrowLeft") { seek((audio().currentTime || 0) - 2); e.preventDefault(); }
+    if (e.key === " " || e.key === "Enter") { toggle(); e.preventDefault(); }
+  });
+  document.querySelectorAll("[data-track]").forEach(b => b.addEventListener("click", () => setTrack(b.dataset.track)));
+  window.addEventListener("resize", draw);
+  buildCues();
+  requestAnimationFrame(draw);
+  return { draw };
+})();
+
+/* ---------- presets */
+(function presets() {
+  const all = [];
+  all.push(["Factory", DATA.factory]);
+  DATA.presets.forEach(p => all.push(p));
+  const total = all.reduce((s, [, l]) => s + l.length, 0);
+  const pbar = document.getElementById("pbar"), list = document.getElementById("plist");
+  const search = document.getElementById("psearch"), count = document.getElementById("pcount");
+  let cat = "Hard Groove";
+
+  function chip(name, n) {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "pcat"; b.dataset.cat = name;
+    b.innerHTML = name.toUpperCase() + ' <span class="n">' + n + "</span>";
+    b.setAttribute("aria-pressed", String(name === cat));
+    b.addEventListener("click", () => { cat = name; render(); });
+    pbar.appendChild(b);
+  }
+  chip("Todos", total);
+  all.forEach(([c, l]) => chip(c, l.length));
+
+  function render() {
+    [...pbar.children].forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === cat)));
+    const q = search.value.trim().toLowerCase();
+    const rows = [];
+    all.forEach(([c, l]) => {
+      if (cat !== "Todos" && c !== cat && !q) return;
+      l.forEach(n => { if (!q || n.toLowerCase().includes(q) || c.toLowerCase().includes(q)) rows.push([n, c]); });
+    });
+    list.innerHTML = "";
+    if (!rows.length) {
+      const d = document.createElement("div"); d.className = "empty"; d.textContent = "Ningún preset coincide con «" + search.value + "».";
+      list.appendChild(d);
+    }
+    rows.forEach(([n, c]) => {
+      const d = document.createElement("div");
+      d.innerHTML = '<span class="nm"></span><span class="ct"></span>';
+      d.firstChild.textContent = n; d.lastChild.textContent = c;
+      list.appendChild(d);
+    });
+    count.textContent = rows.length + " de " + total;
+  }
+  search.addEventListener("input", render);
+  render();
+})();
+</script>

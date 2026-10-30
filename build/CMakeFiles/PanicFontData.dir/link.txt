@@ -1,2 +1,0 @@
-/usr/bin/ar qc libPanicFontData.a CMakeFiles/PanicFontData.dir/juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData1.cpp.o CMakeFiles/PanicFontData.dir/juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData2.cpp.o CMakeFiles/PanicFontData.dir/juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData3.cpp.o
-/usr/bin/ranlib libPanicFontData.a

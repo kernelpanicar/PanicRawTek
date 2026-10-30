@@ -1,0 +1,7 @@
+build/
+build-win/
+dist/
+build_log.txt
+build_config_log.txt
+tools/__pycache__/
+.DS_Store

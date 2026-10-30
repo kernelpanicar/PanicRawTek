@@ -1,0 +1,96 @@
+name: Build installers (macOS .pkg + Windows .exe)
+
+on:
+  push:
+    branches: [ main, master ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  macos:
+    name: macOS .pkg (Universal)
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build VST3 + AU + Standalone
+        run: cmake --build build --config Release -j4 --target PanicRawTek_VST3 PanicRawTek_AU PanicRawTek_Standalone
+
+      - name: Validate AU
+        continue-on-error: true
+        run: |
+          mkdir -p ~/Library/Audio/Plug-Ins/Components
+          cp -R "build/PanicRawTek_artefacts/Release/AU/Panic Raw Tek.component" ~/Library/Audio/Plug-Ins/Components/
+          codesign --force --deep --sign - ~/Library/Audio/Plug-Ins/Components/"Panic Raw Tek.component"
+          killall -9 AudioComponentRegistrar || true
+          sleep 3
+          auval -v aumu Pnrt Pnic | tail -20
+
+      - name: Build .pkg
+        env:
+          APP_SIGN_ID: ${{ secrets.APP_SIGN_ID }}
+          INSTALLER_SIGN_ID: ${{ secrets.INSTALLER_SIGN_ID }}
+        run: |
+          chmod +x installer/mac/build_pkg.sh installer/mac/scripts/*
+          installer/mac/build_pkg.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PanicRawTek-macOS-pkg
+          path: dist/*.pkg
+
+  windows:
+    name: Windows .exe (x64)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -B build-win -G "Visual Studio 17 2022" -A x64
+
+      - name: Build VST3 + Standalone
+        run: cmake --build build-win --config Release --target PanicRawTek_VST3 PanicRawTek_Standalone -- /m
+
+      - name: Install Inno Setup
+        run: choco install innosetup --no-progress -y
+
+      - name: Build Setup.exe
+        shell: pwsh
+        run: |
+          $ver = (Select-String -Path CMakeLists.txt -Pattern 'project\(PanicRawTek VERSION ([0-9.]+)').Matches[0].Groups[1].Value
+          $iscc = @("${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe", "$env:ProgramFiles\Inno Setup 6\ISCC.exe") | Where-Object { Test-Path $_ } | Select-Object -First 1
+          & $iscc /Q "/DMyAppVersion=$ver" "/DArtDir=..\..\build-win\PanicRawTek_artefacts\Release" installer\windows\PanicRawTek.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Get-ChildItem dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PanicRawTek-Windows-exe
+          path: dist/*.exe
+
+  release:
+    name: GitHub Release (solo con tags v*)
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [ macos, windows ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+      - name: Copias con nombre fijo (para los links de la landing)
+        run: |
+          mkdir -p stable
+          cp out/PanicRawTek-macOS-pkg/*.pkg "stable/PanicRawTek-macOS.pkg"
+          cp out/PanicRawTek-Windows-exe/*.exe "stable/PanicRawTek-Windows-Setup.exe"
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            out/**/*.pkg
+            out/**/*.exe
+            stable/*

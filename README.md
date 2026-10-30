@@ -50,23 +50,50 @@ Tips de groove: Random → Cutoff en la matriz para que cada golpe sea distinto;
 
 ---
 
-## Instalación en Mac
+## Instaladores (.pkg para Mac, .exe para Windows)
 
-Necesitás Xcode Command Line Tools y CMake (`brew install cmake`). Cerrá Ableton y en la Terminal:
+### Opción A — GitHub los genera solos (recomendado)
+1. Creá un repositorio en GitHub y subí esta carpeta tal cual (incluida `.github/`).
+2. En la pestaña **Actions** corre *Build installers*: compila en una Mac y en una PC con Windows reales.
+3. Al terminar (~15 min), en el run → **Artifacts**:
+   - `PanicRawTek-macOS-pkg` → **Panic Raw Tek 3.x.x macOS.pkg** (Universal: Apple Silicon + Intel)
+   - `PanicRawTek-Windows-exe` → **Panic Raw Tek 3.x.x Windows Setup.exe** (64-bit)
+4. Si subís un tag (`git tag v3.1.0 && git push --tags`), además crea un **Release** con los dos instaladores para descargar.
 
-```bash
-cd ~/Downloads/PanicRawTek
-chmod +x reinstalar_limpio.command
-./reinstalar_limpio.command
-```
+### Opción B — Generarlos en tu computadora
+- **Mac:** doble click en `crear_instalador_mac.command` (necesita Xcode Command Line Tools + CMake). Deja el `.pkg` en `dist/`.
+- **Windows:** doble click en `crear_instalador_windows.bat` (necesita Visual Studio 2022 con C++ e [Inno Setup 6](https://jrsoftware.org/isdl.php)). Deja el `.exe` en `dist/`.
 
-Desinstala cualquier versión anterior (incluido el viejo *RawTek*), compila desde cero e instala. Al final muestra la versión instalada (**3.1.0**).
+### Qué instala cada uno
+| | Mac `.pkg` | Windows `.exe` |
+|---|---|---|
+| VST3 | `/Library/Audio/Plug-Ins/VST3` | `C:\Program Files\Common Files\VST3` |
+| Audio Unit | `/Library/Audio/Plug-Ins/Components` | — |
+| App standalone | `/Applications` | `C:\Program Files\Panic Audio\Panic Raw Tek` |
+| Desinstalar | `desinstalar.command` | Configuración → Aplicaciones (o menú Inicio) |
 
-Después, en Ableton: **Settings → Plug-Ins →** mantené **Option (⌥)** y hacé click en **Rescan**. Lo encontrás en *Plug-Ins → Panic Audio → Panic Raw Tek*.
+Los componentes se pueden elegir durante la instalación. El `.pkg` también borra el viejo *RawTek* y las copias instaladas con los scripts, para que no aparezcan duplicados en Ableton.
 
-- `build_mac.sh`: compila e instala (sin desinstalar antes).
-- `desinstalar.command`: borra todo (respalda tus presets *User* en el Escritorio).
-- **Sin compilar:** subí la carpeta a un repo de GitHub; *Actions* genera `PanicRawTek-mac-universal.zip` con el plugin listo y un `instalar.command`.
+### Avisos de seguridad (instaladores sin firma)
+Sin una cuenta paga de desarrollador, los instaladores no están firmados:
+- **Mac:** si dice que no se puede abrir, hacé **click derecho → Abrir**, o andá a *Configuración del Sistema → Privacidad y seguridad → Abrir igualmente*.
+- **Windows:** SmartScreen muestra "Windows protegió su PC" → **Más información → Ejecutar de todas formas**.
+
+Para distribuirlo sin avisos: en Mac, Apple Developer ID (USD 99/año) + notarización. El workflow ya lee los secrets `APP_SIGN_ID` / `INSTALLER_SIGN_ID`. En Windows, un certificado de firma de código.
+
+### Instalar compilando (sin instalador)
+`reinstalar_limpio.command` (Mac) desinstala lo anterior, compila e instala directamente en tu usuario.
+
+## Landing de descarga
+
+`docs/index.html` es la página para que la gente lo descargue (demos con presets en vivo, motor, interfaz, presets, instalación).
+
+1. Generá la página con tu repo: `python3 tools/build_landing.py TU_USUARIO/TU_REPO`
+   (los botones apuntan a `https://github.com/TU_USUARIO/TU_REPO/releases/latest/download/PanicRawTek-macOS.pkg` y `...-Windows-Setup.exe`).
+2. Subí un tag (`git tag v3.1.0 && git push --tags`): el workflow crea el Release con esos dos archivos.
+3. En GitHub: **Settings → Pages → Deploy from a branch → main / docs**. La landing queda en `https://TU_USUARIO.github.io/TU_REPO/`.
+
+Para editar textos, cambiá `docs/index.template.html` y volvé a correr el paso 1.
 
 ## Estructura
 
@@ -75,6 +102,8 @@ Source/SynthEngine.h       Motor: osciladores + unison, filtro, envolventes, LFO
 Source/Effects.h           Chorus, dub delay, reverb FDN
 Source/PluginProcessor.*   Parámetros, presets, MIDI, cadena de FX
 Source/PluginEditor.*      Interfaz
+installer/mac/             Instalador .pkg (build_pkg.sh, distribution.xml, postinstall, textos)
+installer/windows/         Instalador .exe (Inno Setup: PanicRawTek.iss, ícono, imágenes)
 Resources/Fonts/           Bebas Neue y JetBrains Mono (SIL Open Font License, licencias incluidas)
 Presets/                   Pack de presets (.rtkpreset), se embebe en el plugin al compilar
 tools/make_presets.py      Generador del pack · tools/level_presets.py nivelación · tools/demo_*.py demos

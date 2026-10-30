@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.22)
 # Mac: universal (Apple Silicon + Intel), macOS 11+. Tiene que ir antes de project().
 set(CMAKE_OSX_DEPLOYMENT_TARGET "11.0" CACHE STRING "Minimum macOS version")
 set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64" CACHE STRING "Mac architectures")
+# Windows: runtime de C++ estático (no hace falta instalar Visual C++ Redistributable)
+set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
 project(PanicRawTek VERSION 3.1.0 LANGUAGES C CXX)
 
@@ -33,6 +35,7 @@ juce_add_plugin(PanicRawTek
     PLUGIN_MANUFACTURER_CODE    Pnic
     PLUGIN_CODE                 Pnrt
     DESCRIPTION                 "Raw & groove techno synthesizer"
+    ICON_BIG                    "${CMAKE_CURRENT_SOURCE_DIR}/Resources/Icon/icon_1024.png"
     IS_SYNTH                    TRUE
     NEEDS_MIDI_INPUT            TRUE
     NEEDS_MIDI_OUTPUT           FALSE
@@ -57,6 +60,10 @@ target_sources(PanicRawTek PRIVATE
     Source/PluginProcessor.cpp
     Source/PluginEditor.cpp
 )
+
+if(MSVC)
+    target_compile_options(PanicRawTek PRIVATE /utf-8 /bigobj)
+endif()
 
 target_compile_definitions(PanicRawTek PUBLIC
     JUCE_WEB_BROWSER=0

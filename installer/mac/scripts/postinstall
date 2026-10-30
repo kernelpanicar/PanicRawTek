@@ -1,0 +1,22 @@
+#!/bin/bash
+# Panic Raw Tek — postinstall (corre como root después de instalar)
+# Borra copias a nivel usuario (instalaciones anteriores con scripts) y el viejo RawTek,
+# para que Ableton no vea plugins duplicados. Refresca la caché de Audio Units.
+
+CONSOLE_USER=$(/usr/bin/stat -f%Su /dev/console 2>/dev/null)
+if [ -n "$CONSOLE_USER" ] && [ "$CONSOLE_USER" != "root" ]; then
+    USER_HOME=$(/usr/bin/dscl . -read "/Users/$CONSOLE_USER" NFSHomeDirectory 2>/dev/null | /usr/bin/awk '{print $2}')
+    if [ -d "$USER_HOME" ]; then
+        for p in "Library/Audio/Plug-Ins/VST3/Panic Raw Tek.vst3" \
+                 "Library/Audio/Plug-Ins/Components/Panic Raw Tek.component" \
+                 "Library/Audio/Plug-Ins/VST3/RawTek.vst3" \
+                 "Library/Audio/Plug-Ins/Components/RawTek.component"; do
+            [ -e "$USER_HOME/$p" ] && /bin/rm -rf "$USER_HOME/$p"
+        done
+        /bin/rm -rf "$USER_HOME/Library/Caches/AudioUnitCache" 2>/dev/null
+    fi
+fi
+
+/bin/rm -rf "/Library/Audio/Plug-Ins/VST3/RawTek.vst3" "/Library/Audio/Plug-Ins/Components/RawTek.component" 2>/dev/null
+/usr/bin/killall -9 AudioComponentRegistrar >/dev/null 2>&1 || true
+exit 0
