@@ -215,7 +215,7 @@ footer .mono { font-size: 12px; color: var(--dim); }
             <span class="yours" hidden>TU SISTEMA</span>
             <span class="os">WINDOWS</span>
             <span class="what">Instalador .exe</span>
-            <span class="req">Windows 10 / 11 · 64 bits</span>
+            <span class="req">Windows 10 / 11 · 64 bits · requiere admin</span>
           </a>
         </div>
         <p class="dl-note" id="dl-note">Versión <span id="ver">3.1.0</span> · VST3 para Ableton Live, FL Studio, Bitwig, Reaper y Cubase · AU para Ableton y Logic</p>
@@ -340,12 +340,13 @@ footer .mono { font-size: 12px; color: var(--dim); }
       </div>
       <div id="os-win" hidden>
         <ol class="steps">
-          <li class="panel"><span>Descargá <b>Panic Raw Tek Windows Setup.exe</b> y ejecutalo. El asistente está en español.</span></li>
+          <li class="panel"><span>Descargá <b>Panic Raw Tek Windows Setup.exe</b>. Hacé click derecho sobre el archivo → <b>Ejecutar como administrador</b>. El instalador necesita <b>permisos de administrador</b> porque escribe en la carpeta de plugins del sistema. El asistente está en español.</span></li>
           <li class="panel"><span>El VST3 se instala en <code>C:\Program Files\Common Files\VST3</code> y la app standalone queda en el menú Inicio.</span></li>
           <li class="panel"><span>En tu DAW, volvé a escanear plugins. En Ableton: <b>Settings → Plug-Ins</b>, activá <i>Use VST3 Plug-In System Folders</i> y hacé click en <b>Rescan</b>.</span></li>
           <li class="panel"><span>Para desinstalar: <b>Configuración → Aplicaciones → Panic Raw Tek</b>.</span></li>
         </ol>
         <div class="warn"><strong>SI APARECE "WINDOWS PROTEGIÓ SU PC"</strong>El instalador no tiene firma de código. Hacé click en <b>Más información → Ejecutar de todas formas</b>.</div>
+        <div class="warn"><strong>SI DICE "ERROR 5: ACCESO DENEGADO"</strong>Falta el permiso de administrador o el antivirus lo bloqueó. Si lo bajaste en un .zip, primero <b>Extraer todo</b>. Después click derecho → <b>Propiedades</b> → tildá <b>Desbloquear</b> → Aceptar, y ejecutalo con click derecho → <b>Ejecutar como administrador</b>. Si sigue, permitilo en el historial de protección del antivirus.</div>
       </div>
     </div>
   </section>
