@@ -7,6 +7,8 @@
 #include <array>
 #include <vector>
 
+#include "Wavetables.h"
+
 // ============================================================================
 //  PANIC RAW TEK — motor de síntesis (sin dependencias de JUCE)
 //  2 osciladores con unison estéreo, sub, ruido, FM/ring/sync, ladder,
@@ -53,7 +55,7 @@ struct Rng
 // ---------------------------------------------------------------------------
 //  Oscilador PolyBLEP
 // ---------------------------------------------------------------------------
-enum class Wave { Saw = 0, Square, Pulse, Triangle };
+enum class Wave { Saw = 0, Square, Pulse, Triangle, Table };
 
 inline float polyBlep (float t, float dt)
 {
@@ -207,7 +209,8 @@ struct Lfo
 // ---------------------------------------------------------------------------
 enum ModSrc { SrcOff = 0, SrcLfo1, SrcLfo2, SrcModEnv, SrcAmpEnv, SrcVelocity, SrcNote, SrcRandom, SrcModWheel, SrcAftertouch, NumModSrc };
 enum ModDst { DstOff = 0, DstCutoff, DstReso, DstPitch, DstOscBPitch, DstPW, DstOscMix, DstFM, DstRing, DstDetune,
-              DstNoise, DstSub, DstDrive, DstCombTune, DstCombMix, DstAmp, DstPan, NumModDst };
+              DstNoise, DstSub, DstDrive, DstCombTune, DstCombMix, DstAmp, DstPan,
+              DstWtPosA, DstWtPosB, NumModDst };
 
 struct ModSlot { int src = 0, dst = 0; float amt = 0.0f; };
 
@@ -218,6 +221,8 @@ struct EngineParams
 {
     Wave  osc1Wave = Wave::Saw, osc2Wave = Wave::Saw;
     float pulseWidth = 0.25f;
+    int   wtTableA = 0, wtTableB = 0;
+    float wtPosA = 0.0f, wtPosB = 0.0f;
     float osc2Semi = 0.0f, osc2Detune = 0.0f;
     float oscMix = 0.5f, subLevel = 0.0f, noiseLevel = 0.0f;
 
@@ -312,6 +317,7 @@ public:
     void prepare (double sampleRate)
     {
         sr = sampleRate;
+        (void) wt::Bank::get(); // genera las tablas fuera del audio thread
         int size = 1;
         while (size < (int) (sr / 15.0) + 8) size <<= 1;
         combMask = size - 1;
@@ -493,6 +499,10 @@ public:
         const float combDampA = 1.0f - p.combDamp * 0.92f;
         const float combMaxDelay = (float) (combMask - 2);
         const int   nA = p.uniA, nB = p.uniB;
+        const auto& bank = wt::Bank::get();
+        const bool  tblA = p.osc1Wave == Wave::Table, tblB = p.osc2Wave == Wave::Table;
+        const int   tA = std::clamp (p.wtTableA, 0, wt::kNumTables - 1);
+        const int   tB = std::clamp (p.wtTableB, 0, wt::kNumTables - 1);
 
         for (int i = 0; i < n; ++i)
         {
@@ -551,6 +561,11 @@ public:
                 fmIdx = fmIdx * fmIdx * 3.0f;
                 const float fmSig = fmIdx > 1.0e-4f ? fmIdx * std::sin (kTwoPi * v.phMod) : 0.0f;
 
+                const float posA = std::clamp (p.wtPosA + m[DstWtPosA], 0.0f, 1.0f);
+                const float posB = std::clamp (p.wtPosB + m[DstWtPosB], 0.0f, 1.0f);
+                const int   mipA = tblA ? wt::Bank::mipFor (dtA * (1.0f + centsA * 0.000578f)) : 0;
+                const int   mipB = tblB ? wt::Bank::mipFor (dtB * (1.0f + centsB * 0.000578f)) : 0;
+
                 // ---- osc A con unison
                 float aL = 0.0f, aR = 0.0f;
                 bool  wrapA[kMaxUnison] {};
@@ -561,7 +576,8 @@ public:
                     const float dt = std::min (dtA * ratio, 0.45f);
                     float ph = v.phA[k] + fmSig;
                     ph -= std::floor (ph);
-                    const float s = renderWave (p.osc1Wave, ph, dt, pw);
+                    const float s = tblA ? bank.read (tA, posA, ph, std::min (wt::kMips - 1, mipA + (fmIdx > 0.3f ? 1 : 0)))
+                                         : renderWave (p.osc1Wave, ph, dt, pw);
                     aL += s * uniGLA[k];
                     aR += s * uniGRA[k];
                     v.phA[k] += dt;
@@ -574,7 +590,8 @@ public:
                 {
                     const float ratio = 1.0f + uniPosB[k] * centsB * 0.000577623f;
                     const float dt = std::min (dtB * ratio, 0.45f);
-                    const float s = renderWave (p.osc2Wave, v.phB[k], dt, pw);
+                    const float s = tblB ? bank.read (tB, posB, v.phB[k], mipB)
+                                         : renderWave (p.osc2Wave, v.phB[k], dt, pw);
                     bL += s * uniGLB[k];
                     bR += s * uniGRB[k];
                     v.phB[k] += dt;

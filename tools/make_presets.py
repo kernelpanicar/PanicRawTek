@@ -2,7 +2,7 @@
 """Genera el pack de presets de RawTek (Presets/<Categoria>/<Nombre>.rtkpreset).
 
 Valores en unidades reales (Hz, segundos, semitonos, 0..1). Los choices van por índice.
-  Ondas:       saw=0 sq=1 pulse=2 tri=3
+  Ondas:       saw=0 sq=1 pulse=2 tri=3 wavetable=4
   Filtro:      LP24=0 LP12=1 BP=2 HP=3
   LFO wave:    sine=0 tri=1 square=2 S&H=3
   LFO div:     4/1=0 2/1=1 1/1=2 1/2=3 1/4=4 1/8=5 1/16=6 1/32=7 1/4T=8 1/8T=9 1/16T=10 1/8D=11 1/16D=12
@@ -202,7 +202,7 @@ preset("FX", "Alarm Metal", osc1Wave=SQ, osc2Wave=TRI, osc2Semi=6, osc2Detune=0,
 # =============================================================================
 # Fuentes matriz: off=0 lfo1=1 lfo2=2 modenv=3 ampenv=4 vel=5 note=6 rnd=7 wheel=8 at=9
 # Destinos: off=0 cut=1 reso=2 pitch=3 bpitch=4 pw=5 mix=6 fm=7 ring=8 det=9 noise=10 sub=11
-#           drive=12 restune=13 resmix=14 amp=15 pan=16
+#           drive=12 restune=13 resmix=14 amp=15 pan=16 wtposA=17 wtposB=18
 L1, L2, MENV, AENV, VEL, NOTE, RND, WHEEL, AT = 1, 2, 3, 4, 5, 6, 7, 8, 9
 D_CUT, D_RESO, D_PITCH, D_BPITCH, D_PW, D_MIX, D_FM, D_RING, D_DET, D_NOISE, D_SUB, D_DRIVE, D_RTUNE, D_RMIX, D_AMP, D_PAN = range(1, 17)
 # Divisiones: 4/1=0 2/1=1 1/1=2 1/2=3 1/4=4 1/8=5 1/16=6 1/32=7 1/4T=8 1/8T=9 1/16T=10 1/8D=11 1/16D=12
@@ -455,6 +455,74 @@ preset("FX", "Riser Groove Noise", osc1Wave=TRI, oscMix=0.0, noise=1.0, filterMo
        **REV(0.4, 0.7), distAmt=0.2, mode=MONO)
 preset("FX", "Impact Down", osc1Wave=TRI, oscMix=0.0, noise=0.3, pitchEnv=36, pitchDecay=0.6, cutoff=2000, envAmt=0.3,
        fD=0.8, keyTrack=0.0, aD=1.5, aR=0.8, **PERC_AMP, **REV(0.5, 0.8), distType=SOFT, distAmt=0.6, mode=MONO)
+
+
+# =============================================================================
+#  v3.2 — WAVETABLE
+#  Tablas: 0 Saw>Sqr  1 Sync  2 Fold  3 PWM  4 Formant  5 Metal  6 Digital  7 Grit  8 Harmonic  9 Vowel
+# =============================================================================
+WT = 4
+T_SAWSQ, T_SYNC, T_FOLD, T_PWM, T_FORM, T_METAL, T_DIGI, T_GRIT, T_HARM, T_VOWEL = range(10)
+D_WTA, D_WTB = 17, 18
+W = "Wavetable"
+
+preset(W, "Fold Stab", osc1Wave=WT, wtA=T_FOLD, wtPosA=0.25, oscMix=0.0, cutoff=2200, reso=0.3, envAmt=0.3, fD=0.1,
+       aD=0.18, aR=0.12, **PERC_AMP, **M((MENV, D_WTA, 0.55), (VEL, D_WTA, 0.2)), **DLY(0.18, 11, 0.4),
+       distType=SOFT, distAmt=0.3, mode=POLY)
+preset(W, "Sync Sweep Bass", osc1Wave=WT, wtA=T_SYNC, wtPosA=0.1, oscMix=0.0, sub=0.4, cutoff=900, reso=0.35, envAmt=0.35,
+       fD=0.12, aD=0.25, aS=0.5, aR=0.08, **M((MENV, D_WTA, 0.6)), distType=SOFT, distAmt=0.4, mode=MONO)
+preset(W, "Hypno Morph", osc1Wave=WT, wtA=T_HARM, wtPosA=0.2, osc2Wave=WT, wtB=T_FORM, wtPosB=0.3, osc2Semi=12, oscMix=0.35,
+       cutoff=1400, reso=0.4, envAmt=0.2, fD=0.2, aS=0.9, aR=0.25,
+       lfoWave=LTRI, lfoSync=1, lfoDiv=2, lfo2Wave=SINE, lfo2Sync=1, lfo2Div=1,
+       **M((L1, D_WTA, 0.45), (L2, D_WTB, 0.5), (L1, D_CUT, 0.15)), **DLY(0.2, 11, 0.55), **REV(0.15),
+       distAmt=0.25, mode=MONO)
+preset(W, "Metal Table Hit", osc1Wave=WT, wtA=T_METAL, wtPosA=0.9, osc2Wave=WT, wtB=T_METAL, wtPosB=0.5, osc2Semi=7, osc2Detune=31,
+       oscMix=0.4, cutoff=5000, reso=0.2, envAmt=0.2, fD=0.2, keyTrack=0.5, aD=0.45, aR=0.35, **PERC_AMP,
+       **M((MENV, D_WTA, -0.5)), **REV(0.2, 0.45), distType=HARD, distAmt=0.25, mode=POLY)
+preset(W, "Vowel Groove", osc1Wave=WT, wtA=T_VOWEL, wtPosA=0.0, oscMix=0.0, cutoff=3000, reso=0.2, envAmt=0.1,
+       aD=0.2, aS=0.6, aR=0.1, lfoWave=SH, lfoSync=1, lfoDiv=6,
+       **M((L1, D_WTA, 0.6)), **DLY(0.2, 9, 0.45), distType=SOFT, distAmt=0.35, mode=MONO)
+preset(W, "Digital Rumble", osc1Wave=WT, wtA=T_DIGI, wtPosA=0.55, oscMix=0.0, sub=0.5, filterMode=LP24, cutoff=320, reso=0.3,
+       envAmt=0.4, fD=0.15, aD=0.3, aS=0.4, aR=0.2, lfoWave=SINE, lfoSync=1, lfoDiv=5,
+       **M((L1, D_WTA, 0.2)), **REV(0.3, 0.7, 0.6, 0.02, 90), distType=SOFT, distAmt=0.45, mode=MONO)
+preset(W, "Grit Lead", osc1Wave=WT, wtA=T_GRIT, wtPosA=0.6, osc2Wave=WT, wtB=T_GRIT, wtPosB=0.8, osc2Detune=12, uniA=3, detA=0.25,
+       cutoff=2400, reso=0.25, envAmt=0.25, fD=0.3, aS=0.85, aR=0.2, glide=0.04,
+       **M((WHEEL, D_WTA, 0.4), (WHEEL, D_WTB, 0.2)), **DLY(0.15, 11, 0.4), distType=HARD, distAmt=0.3, mode=MONO)
+preset(W, "PWM Rave Stack", osc1Wave=WT, wtA=T_PWM, wtPosA=0.3, osc2Wave=WT, wtB=T_PWM, wtPosB=0.6, osc2Semi=12, uniA=5, detA=0.5,
+       uniB=3, detB=0.4, spread=0.9, cutoff=3200, reso=0.2, envAmt=0.2, fD=0.3, aD=0.4, aS=0.3, aR=0.25,
+       lfoWave=LTRI, lfoRate=0.3, lfo2Wave=SINE, lfo2Rate=0.45,
+       **M((L1, D_WTA, 0.3), (L2, D_WTB, 0.3)), **CH(0.3), **REV(0.2), distAmt=0.3, mode=POLY)
+preset(W, "Formant Pluck", osc1Wave=WT, wtA=T_FORM, wtPosA=0.15, oscMix=0.0, cutoff=2800, reso=0.25, envAmt=0.3, fD=0.08,
+       aD=0.22, aR=0.15, **PERC_AMP, **M((MENV, D_WTA, 0.7), (NOTE, D_WTA, 0.15)), **DLY(0.22, 11, 0.45),
+       distAmt=0.2, mode=POLY)
+preset(W, "Harmonic Build", osc1Wave=WT, wtA=T_HARM, wtPosA=0.0, osc2Wave=WT, wtB=T_HARM, wtPosB=0.0, osc2Semi=7, osc2Detune=4,
+       oscMix=0.3, cutoff=6000, reso=0.1, envAmt=0.0, aA=0.3, aS=1.0, aR=1.2, fA=4.0, fS=1.0,
+       **M((MENV, D_WTA, 1.0), (MENV, D_WTB, 0.8)), **REV(0.35, 0.75), **CH(0.25), distAmt=0.15, mode=POLY)
+preset(W, "Sync Scream", osc1Wave=WT, wtA=T_SYNC, wtPosA=0.4, osc2Wave=SAW, osc2Detune=9, oscMix=0.3, cutoff=3500, reso=0.35,
+       envAmt=0.2, aS=0.8, aR=0.15, lfoWave=LTRI, lfoRate=0.25,
+       **M((L1, D_WTA, 0.5), (MENV, D_WTA, 0.2)), **DLY(0.15, 11, 0.4), distType=HARD, distAmt=0.4, mode=MONO)
+preset(W, "Fold Bass", osc1Wave=WT, wtA=T_FOLD, wtPosA=0.1, oscMix=0.0, sub=0.35, cutoff=600, reso=0.3, envAmt=0.4, fD=0.09,
+       aD=0.2, aS=0.3, aR=0.06, **M((MENV, D_WTA, 0.45), (VEL, D_WTA, 0.25)), distType=SOFT, distAmt=0.35, mode=MONO)
+preset(W, "Crushed Table Perc", osc1Wave=WT, wtA=T_DIGI, wtPosA=1.0, oscMix=0.0, noise=0.15, pitchEnv=24, pitchDecay=0.03,
+       filterMode=BP, cutoff=2200, reso=0.4, envAmt=0.2, aD=0.12, aR=0.08, **PERC_AMP,
+       **M((RND, D_WTA, -0.4), (RND, D_PITCH, 0.08)), distType=CRUSH, distAmt=0.3, mode=POLY)
+preset(W, "Metal Drone", osc1Wave=WT, wtA=T_METAL, wtPosA=0.4, osc2Wave=WT, wtB=T_METAL, wtPosB=0.7, osc2Semi=-12, osc2Detune=7,
+       uniA=3, detA=0.2, spread=0.8, cutoff=1800, reso=0.3, envAmt=0.0, aA=1.0, aS=1.0, aR=2.0,
+       lfoWave=SINE, lfoRate=0.07, lfo2Wave=LTRI, lfo2Rate=0.11,
+       **M((L1, D_WTA, 0.4), (L2, D_WTB, 0.4), (L2, D_CUT, 0.2)), combMix=0.25, combTune=12, combFb=0.85,
+       **REV(0.4, 0.85), distAmt=0.2, mode=POLY)
+preset(W, "Saw Square Stab", osc1Wave=WT, wtA=T_SAWSQ, wtPosA=0.0, osc2Wave=WT, wtB=T_SAWSQ, wtPosB=1.0, osc2Semi=12, uniA=3, detA=0.2,
+       cutoff=1100, reso=0.45, envAmt=0.45, fD=0.1, aD=0.16, aR=0.1, **PERC_AMP,
+       **M((MENV, D_WTA, 0.8)), **DLY(0.2, 11, 0.45), **REV(0.15), distType=SOFT, distAmt=0.35, mode=POLY)
+preset(W, "Vowel Chant", osc1Wave=WT, wtA=T_VOWEL, wtPosA=0.25, osc2Wave=WT, wtB=T_VOWEL, wtPosB=0.75, osc2Detune=10, uniA=3, detA=0.2,
+       cutoff=4000, drive=0.45, envAmt=0.0, aA=0.12, aS=0.9, aR=0.6, lfo2Wave=LTRI, lfo2Sync=1, lfo2Div=1,
+       **M((L2, D_WTA, 0.35), (L2, D_WTB, -0.35)), **CH(0.4), **REV(0.3, 0.7), distType=SOFT, distAmt=0.45, mode=POLY)
+preset(W, "Grit Rolling Bass", osc1Wave=WT, wtA=T_GRIT, wtPosA=0.3, oscMix=0.0, sub=0.3, filterMode=LP24, cutoff=450, reso=0.25,
+       envAmt=0.35, fD=0.07, aD=0.14, aS=0.0, aR=0.05, aA=0.001,
+       **M((MENV, D_WTA, 0.4), (RND, D_WTA, 0.1)), distType=SOFT, distAmt=0.4, mode=MONO)
+preset(W, "Table Bleep", osc1Wave=WT, wtA=T_HARM, wtPosA=0.15, osc2Wave=WT, wtB=T_SYNC, wtPosB=0.5, osc2Semi=12, oscMix=0.4,
+       cutoff=4000, envAmt=0.0, aD=0.07, aR=0.06, **PERC_AMP, **M((RND, D_WTB, 0.45), (RND, D_BPITCH, 0.1)),
+       **DLY(0.3, 12, 0.5), distType=HARD, distAmt=0.25, mode=POLY)
 
 
 def write_all(root, levels):

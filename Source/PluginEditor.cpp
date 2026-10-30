@@ -130,7 +130,7 @@ void LookAndFeel::drawLinearSlider (Graphics& g, int x, int y, int w, int h, flo
     g.fillRect (bar);
     g.setColour (Pal::edge);
     g.drawVerticalLine ((int) mid, r.getY() + 2, r.getBottom() - 2);
-    g.setFont (mono (10.0f));
+    g.setFont (mono (11.5f));
     const String txt = (v > 0 ? "+" : "") + String ((int) std::round (v * 100));
     g.setColour (Pal::text);
     g.drawText (txt, r.toNearestInt(), Justification::centred);
@@ -216,7 +216,7 @@ void LookAndFeel::drawButtonText (Graphics& g, TextButton& b, bool over, bool)
     const bool on = b.getToggleState();
     const bool isTab = (bool) b.getProperties().getWithDefault ("tab", false);
     const bool isLed = b.getClickingTogglesState() && ! isTab;
-    g.setFont (isTab ? display (17.0f) : getTextButtonFont (b, b.getHeight()));
+    g.setFont (isTab ? display (19.0f) : getTextButtonFont (b, b.getHeight()));
     Colour c = Pal::dim;
     if (isTab)       c = on ? Colours::black : (over ? Pal::text : Pal::dim);
     else if (isLed)  c = on ? Pal::text : Pal::dim;
@@ -248,25 +248,25 @@ Knob::Knob (AudioProcessorValueTreeState& state, const String& id, const String&
 void Knob::resized()
 {
     auto r = getLocalBounds();
-    r.removeFromTop (14);
-    r.removeFromBottom (18);
+    r.removeFromTop (16);
+    r.removeFromBottom (20);
     slider.setBounds (r.withSizeKeepingCentre (jmin (r.getWidth(), r.getHeight()), r.getHeight()));
 }
 
 void Knob::paint (Graphics& g)
 {
     auto r = getLocalBounds();
-    g.setFont (mono (9.5f));
+    g.setFont (mono (11.0f));
     g.setColour (isEnabled() ? Pal::dim : Pal::off);
-    g.drawText (label, r.removeFromTop (14), Justification::centred);
+    g.drawText (label, r.removeFromTop (16), Justification::centred);
 
-    auto vb = r.removeFromBottom (16).reduced (3, 0).toFloat();
+    auto vb = r.removeFromBottom (18).reduced (2, 0).toFloat();
     const bool hot = slider.isMouseOverOrDragging();
     g.setColour (Pal::lcd);
     g.fillRect (vb);
     g.setColour (hot ? Pal::yellow.withAlpha (0.6f) : Colour (0xff23221e));
     g.drawRect (vb, 1.0f);
-    g.setFont (mono (10.0f, false));
+    g.setFont (mono (11.5f, false));
     g.setColour (hot ? Pal::yellow : Pal::text);
     g.drawText (slider.getTextFromValue (slider.getValue()), vb.toNearestInt(), Justification::centred);
 }
@@ -280,16 +280,16 @@ Choice::Choice (AudioProcessorValueTreeState& state, const String& id, const Str
 
 void Choice::paint (Graphics& g)
 {
-    g.setFont (mono (9.5f));
+    g.setFont (mono (11.0f));
     g.setColour (isEnabled() ? Pal::dim : Pal::off);
-    g.drawText (label, getLocalBounds().removeFromTop (13), Justification::centredLeft);
+    g.drawText (label, getLocalBounds().removeFromTop (15), Justification::centredLeft);
 }
 
 void Choice::resized()
 {
     auto r = getLocalBounds();
-    r.removeFromTop (13);
-    box.setBounds (r.removeFromTop (22));
+    r.removeFromTop (15);
+    box.setBounds (r.removeFromTop (24));
 }
 
 Toggle::Toggle (AudioProcessorValueTreeState& state, const String& id, const String& text)
@@ -317,23 +317,23 @@ MatrixSlot::MatrixSlot (AudioProcessorValueTreeState& state, int i)
 
 void MatrixSlot::resized()
 {
-    auto r = getLocalBounds().withSizeKeepingCentre (getWidth(), 24);
-    r.removeFromLeft (28);
-    src.setBounds (r.removeFromLeft (84));
+    auto r = getLocalBounds().withSizeKeepingCentre (getWidth(), 26);
+    r.removeFromLeft (30);
+    src.setBounds (r.removeFromLeft (98));
     r.removeFromLeft (14);
-    dst.setBounds (r.removeFromLeft (84));
+    dst.setBounds (r.removeFromLeft (98));
     r.removeFromLeft (6);
     amount.setBounds (r);
 }
 
 void MatrixSlot::paint (Graphics& g)
 {
-    auto r = getLocalBounds().withSizeKeepingCentre (getWidth(), 24);
+    auto r = getLocalBounds().withSizeKeepingCentre (getWidth(), 26);
     const bool active = src.getSelectedItemIndex() > 0 && dst.getSelectedItemIndex() > 0;
-    auto num = r.removeFromLeft (22).toFloat();
+    auto num = r.removeFromLeft (24).toFloat();
     g.setColour (active ? Pal::yellow : Pal::off);
     g.fillRect (num);
-    g.setFont (display (16.0f));
+    g.setFont (display (19.0f));
     g.setColour (active ? Colours::black : Pal::dim);
     g.drawText (String (index).paddedLeft ('0', 2), num.toNearestInt(), Justification::centred);
     // flecha
@@ -355,7 +355,7 @@ void Screen::paint (Graphics& g)
     auto area = r.reduced (10.0f);
     auto scopeArea = area.removeFromTop (area.getHeight() * 0.56f);
     area.removeFromTop (6);
-    auto info = area.removeFromBottom (18);
+    auto info = area.removeFromBottom (20);
     auto filterArea = area;
 
     // grilla
@@ -425,7 +425,7 @@ void Screen::paint (Graphics& g)
 
     // ---- info
     static const char* modes[] = { "LP24", "LP12", "BP", "HP" };
-    g.setFont (mono (10.0f));
+    g.setFont (mono (11.5f));
     g.setColour (Pal::yellow.withAlpha (0.8f));
     String left = String ("FLT ") + modes[jlimit (0, 3, mode)] + "  " + String ((int) fc) + "HZ";
     g.drawText (left, info.toNearestInt(), Justification::centredLeft);
@@ -459,7 +459,7 @@ void FxChain::paint (Graphics& g)
         auto row = Rectangle<float> (r.getX(), r.getY() + i * h, r.getWidth(), h).reduced (0, 3);
         g.setColour (st[i].on ? Pal::yellow : Pal::off);
         g.fillEllipse (row.getX(), row.getCentreY() - 3, 6, 6);
-        g.setFont (mono (10.0f));
+        g.setFont (mono (12.0f));
         g.setColour (st[i].on ? Pal::text : Pal::dim);
         g.drawText (String (i + 1) + "  " + st[i].name, row.withTrimmedLeft (14).toNearestInt(), Justification::centredLeft);
         if (i < 3)
@@ -478,10 +478,10 @@ void PresetDisplay::paint (Graphics& g)
     g.setColour (isMouseOver() ? Pal::yellow : Pal::edge);
     g.drawRect (r, 1.0f);
     auto inner = r.reduced (10, 2);
-    g.setFont (mono (9.5f));
-    g.setColour (Pal::yellow.withAlpha (0.55f));
-    g.drawText (category.toUpperCase(), inner.removeFromTop (13).toNearestInt(), Justification::centredLeft);
-    g.setFont (display (21.0f));
+    g.setFont (mono (11.0f));
+    g.setColour (Pal::yellow.withAlpha (0.6f));
+    g.drawText (category.toUpperCase(), inner.removeFromTop (14).toNearestInt(), Justification::centredLeft);
+    g.setFont (display (24.0f));
     g.setColour (Pal::yellow);
     g.drawText (name.toUpperCase(), inner.withTrimmedRight (16).toNearestInt(), Justification::centredLeft);
     Path p;
@@ -497,6 +497,8 @@ void PresetDisplay::paint (Graphics& g)
 RawTekEditor::RawTekEditor (RawTekProcessor& p)
     : AudioProcessorEditor (p), proc (p),
       osc1Wave (p.apvts, "osc1Wave", "Wave"), osc2Wave (p.apvts, "osc2Wave", "Wave"),
+      wtA (p.apvts, "wtA", "Table"), wtB (p.apvts, "wtB", "Table"),
+      wtPosA (p.apvts, "wtPosA", "WT Pos"), wtPosB (p.apvts, "wtPosB", "WT Pos"),
       hardSync (p.apvts, "sync", "SYNC"),
       pw (p.apvts, "pw", "PW"), uniA (p.apvts, "uniA", "Unison"), detA (p.apvts, "detA", "Detune"),
       osc2Semi (p.apvts, "osc2Semi", "Semi", true), osc2Detune (p.apvts, "osc2Detune", "Fine"),
@@ -532,7 +534,7 @@ RawTekEditor::RawTekEditor (RawTekProcessor& p)
         slots.push_back (std::make_unique<panic::MatrixSlot> (p.apvts, i));
 
     for (Component* c : std::initializer_list<Component*> {
-             &osc1Wave, &osc2Wave, &hardSync, &pw, &uniA, &detA, &osc2Semi, &osc2Detune, &uniB, &detB,
+             &osc1Wave, &osc2Wave, &wtA, &wtB, &wtPosA, &wtPosB, &hardSync, &pw, &uniA, &detA, &osc2Semi, &osc2Detune, &uniB, &detB,
              &oscMix, &sub, &noise, &spread, &fm, &fmEnv, &ring, &pitchEnv, &pitchDecay,
              &filterMode, &voiceMode, &cutoff, &reso, &drive, &envAmt, &keyTrack, &glide,
              &aA, &aD, &aS, &aR, &fA, &fD, &fS, &fR, &combMix, &combTune, &combFb, &combDamp,
@@ -705,6 +707,12 @@ void RawTekEditor::timerCallback()
     dimIf (lfoRate, ! s1); dimIf (lfoDiv, s1);
     dimIf (lfo2Rate, ! s2); dimIf (lfo2Div, s2);
     dimIf (pw, (int) proc.apvts.getRawParameterValue ("osc1Wave")->load() == 2 || (int) proc.apvts.getRawParameterValue ("osc2Wave")->load() == 2);
+    {
+        const bool ta = (int) proc.apvts.getRawParameterValue ("osc1Wave")->load() == 4;
+        const bool tb = (int) proc.apvts.getRawParameterValue ("osc2Wave")->load() == 4;
+        dimIf (wtA, ta); dimIf (wtPosA, ta);
+        dimIf (wtB, tb); dimIf (wtPosB, tb);
+    }
     dimIf (detA, (int) proc.apvts.getRawParameterValue ("uniA")->load() > 1);
     dimIf (detB, (int) proc.apvts.getRawParameterValue ("uniB")->load() > 1);
 
@@ -725,7 +733,7 @@ void RawTekEditor::timerCallback()
 }
 
 // ---------------------------------------------------------------------------- layout
-static constexpr int kPad = 12, kGap = 8, kKnobW = 62, kSelW = 100, kRowH = 132, kTop = 78;
+static constexpr int kPad = 12, kGap = 8, kKnobW = 64, kSelW = 104, kRowH = 146, kTop = 80;
 
 void RawTekEditor::resized() { content.setBounds (0, 0, kDesignW, kDesignH); layoutContent(); }
 
@@ -735,10 +743,10 @@ void RawTekEditor::layoutContent()
     const int W = kDesignW;
 
     // header
-    sizeButton.setBounds (W - kPad - 52, 18, 52, 30);
-    saveButton.setBounds (sizeButton.getX() - 6 - 56, 18, 56, 30);
+    sizeButton.setBounds (W - kPad - 58, 18, 58, 30);
+    saveButton.setBounds (sizeButton.getX() - 6 - 62, 18, 62, 30);
     nextButton.setBounds (saveButton.getX() - 10 - 30, 18, 30, 30);
-    presetDisplay.setBounds (nextButton.getX() - 4 - 300, 16, 300, 34);
+    presetDisplay.setBounds (nextButton.getX() - 4 - 340, 14, 340, 38);
     prevButton.setBounds (presetDisplay.getX() - 4 - 30, 18, 30, 30);
 
     // section: título + columna de selectores + fila de knobs. Devuelve el ancho.
@@ -749,7 +757,7 @@ void RawTekEditor::layoutContent()
         const int w = forcedW > 0 ? forcedW : innerW + 20;
         const Rectangle<int> area (x, y, w, kRowH);
         sections.push_back ({ idx, title, area, tab });
-        auto c = area.reduced (10, 0).withTrimmedTop (32).withTrimmedBottom (6);
+        auto c = area.reduced (10, 0).withTrimmedTop (34).withTrimmedBottom (6);
         c.removeFromLeft (jmax (0, (c.getWidth() - innerW) / 2));
         if (! column.empty())
         {
@@ -757,7 +765,7 @@ void RawTekEditor::layoutContent()
             for (auto* comp : column)
             {
                 const bool isToggle = dynamic_cast<panic::Toggle*> (comp) != nullptr;
-                comp->setBounds (col.removeFromTop (isToggle ? 22 : 35));
+                comp->setBounds (col.removeFromTop (isToggle ? 24 : 39));
                 col.removeFromTop (3);
             }
         }
@@ -769,8 +777,8 @@ void RawTekEditor::layoutContent()
     int x = kPad, y = kTop;
 
     // fila 1
-    x += layout ("01", "OSC A", x, y, { &osc1Wave }, { &pw, &uniA, &detA }) + kGap;
-    x += layout ("02", "OSC B", x, y, { &osc2Wave, &hardSync }, { &osc2Semi, &osc2Detune, &uniB, &detB }) + kGap;
+    x += layout ("01", "OSC A", x, y, { &osc1Wave, &wtA }, { &wtPosA, &pw, &uniA, &detA }) + kGap;
+    x += layout ("02", "OSC B", x, y, { &osc2Wave, &wtB, &hardSync }, { &wtPosB, &osc2Semi, &osc2Detune, &uniB, &detB }) + kGap;
     x += layout ("03", "MIXER", x, y, {}, { &oscMix, &sub, &noise, &spread }) + kGap;
     const Rectangle<int> screenArea (x, y, R - x, kRowH * 2 + kGap);
     sections.push_back ({ "", "PANIC SCOPE", screenArea, -1 });
@@ -793,9 +801,9 @@ void RawTekEditor::layoutContent()
 
     // tabs
     y += kRowH + kGap;
-    tabMatrix.setBounds (kPad, y, 150, 26);
-    tabFx.setBounds (kPad + 154, y, 130, 26);
-    y += 30;
+    tabMatrix.setBounds (kPad, y, 170, 28);
+    tabFx.setBounds (kPad + 174, y, 150, 28);
+    y += 32;
 
     // pestaña MATRIX
     x = kPad;
@@ -803,7 +811,7 @@ void RawTekEditor::layoutContent()
     {
         const Rectangle<int> area (x, y, R - x, kRowH);
         sections.push_back ({ "13", "MOD MATRIX  //  SOURCE > DESTINATION", area, 0 });
-        auto c = area.reduced (12, 0).withTrimmedTop (32).withTrimmedBottom (6);
+        auto c = area.reduced (12, 0).withTrimmedTop (34).withTrimmedBottom (6);
         const int cw = c.getWidth() / 4, rh = c.getHeight() / 2;
         for (int i = 0; i < (int) slots.size(); ++i)
             slots[(size_t) i]->setBounds (c.getX() + (i % 4) * cw, c.getY() + (i / 4) * rh, cw - 12, rh);
@@ -859,10 +867,10 @@ void RawTekEditor::paintContent (Graphics& g)
         g.setColour (Colours::black);
         g.drawText ("RAW TEK", (int) bx + 4, (int) by + 1, (int) bw, (int) bh, Justification::centred);
 
-        g.setFont (mono (9.5f));
+        g.setFont (mono (11.0f));
         g.setColour (Pal::dim);
-        g.drawText ("RAW // HARD GROOVE // HYPNOTIC", (int) (bx + bw + 24), 20, 260, 13, Justification::centredLeft);
-        g.drawText ("TECHNO SYNTHESIZER  V3.1", (int) (bx + bw + 24), 34, 260, 13, Justification::centredLeft);
+        g.drawText ("RAW // HARD GROOVE // HYPNOTIC", (int) (bx + bw + 24), 18, 340, 15, Justification::centredLeft);
+        g.drawText ("WAVETABLE SYNTHESIZER  V3.2", (int) (bx + bw + 24), 34, 340, 15, Justification::centredLeft);
     }
 
     // cinta de peligro
@@ -908,24 +916,24 @@ void RawTekEditor::paintContent (Graphics& g)
         float tx = r.getX() + 8;
         if (s.index.isNotEmpty())
         {
-            const Rectangle<float> tag (tx, r.getY() + 7, 24, 16);
+            const Rectangle<float> tag (tx, r.getY() + 7, 27, 19);
             g.setColour (Pal::yellow);
             g.fillRect (tag);
-            g.setFont (display (16.0f));
+            g.setFont (display (19.0f));
             g.setColour (Colours::black);
             g.drawText (s.index, tag.toNearestInt(), Justification::centred);
-            tx += 30;
+            tx += 34;
         }
         else
         {
             g.setColour (Pal::yellow);
-            g.fillRect (tx, r.getY() + 9, 4.0f, 12.0f);
+            g.fillRect (tx, r.getY() + 9, 4.0f, 15.0f);
             tx += 10;
         }
-        g.setFont (display (19.0f));
+        g.setFont (display (22.0f));
         g.setColour (Pal::text);
-        g.drawText (s.title, (int) tx, (int) r.getY() + 5, (int) (r.getRight() - tx - 14), 20, Justification::centredLeft);
+        g.drawText (s.title, (int) tx, (int) r.getY() + 5, (int) (r.getRight() - tx - 14), 23, Justification::centredLeft);
         g.setColour (Pal::edge);
-        g.drawHorizontalLine ((int) r.getY() + 27, r.getX() + 8, r.getRight() - 14);
+        g.drawHorizontalLine ((int) r.getY() + 30, r.getX() + 8, r.getRight() - 14);
     }
 }

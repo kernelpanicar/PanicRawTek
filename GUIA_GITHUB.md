@@ -23,8 +23,8 @@ Tiempo total: ~30 minutos (la mayoría es esperar que compile).
 
 ## 4. Crear la versión pública (Release)
 1. En el repo: columna derecha **Releases → Create a new release** (o `…/releases/new`).
-2. **Choose a tag** → escribí `v3.1.0` → **Create new tag: v3.1.0 on publish**.
-3. Title: `Panic Raw Tek 3.1.0`. Descripción a gusto.
+2. **Choose a tag** → escribí `v3.2.0` → **Create new tag: v3.2.0 on publish**.
+3. Title: `Panic Raw Tek 3.2.0`. Descripción a gusto.
 4. **Publish release**.
 5. Esto lanza de nuevo el workflow; al terminar (~20 min) el Release tiene adjuntos:
    - `PanicRawTek-macOS.pkg` y `PanicRawTek-Windows-Setup.exe` (los que usa la landing)

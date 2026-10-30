@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Crushed Table Perc" category="Wavetable" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="4"/>
+  <PARAM id="wtA" value="6"/>
+  <PARAM id="wtPosA" value="1.0"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="noise" value="0.15"/>
+  <PARAM id="pitchEnv" value="24"/>
+  <PARAM id="pitchDecay" value="0.03"/>
+  <PARAM id="filterMode" value="2"/>
+  <PARAM id="cutoff" value="2200"/>
+  <PARAM id="reso" value="0.4"/>
+  <PARAM id="envAmt" value="0.2"/>
+  <PARAM id="aD" value="0.12"/>
+  <PARAM id="aR" value="0.08"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="m1Src" value="7"/>
+  <PARAM id="m1Dst" value="17"/>
+  <PARAM id="m1Amt" value="-0.4"/>
+  <PARAM id="m2Src" value="7"/>
+  <PARAM id="m2Dst" value="3"/>
+  <PARAM id="m2Amt" value="0.08"/>
+  <PARAM id="distType" value="3"/>
+  <PARAM id="distAmt" value="0.3"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="0.7"/>
+</RawTekPreset>

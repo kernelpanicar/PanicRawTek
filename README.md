@@ -25,7 +25,7 @@ Botón **100%** arriba a la derecha: cambia el tamaño de la ventana (75 % – 1
 
 ## Presets
 
-**152 presets incluidos dentro del plugin** (9 de fábrica + 143 del pack), agrupados por categoría en el menú del display de presets y en la lista de presets del dispositivo en Ableton.
+**170 presets incluidos dentro del plugin** (9 de fábrica + 161 del pack, 18 de ellos wavetable), agrupados por categoría en el menú del display de presets y en la lista de presets del dispositivo en Ableton.
 
 Las categorías **HARD GROOVE**, **GROOVE PERC** y **OLD SCHOOL** siguen la línea del "modern old school techno" y el hard groove actual (SHDW & Obscure Shape / Mutual Rytm, BCCO, Future.666, Überkikz): stabs cortos para loops, órganos y hoovers 90s, bleeps, y un kit completo de percusión sintetizada (congas, cowbell, ride, hats, clap, toms, rim, shaker).
 
@@ -58,7 +58,7 @@ Tips de groove: Random → Cutoff en la matriz para que cada golpe sea distinto;
 3. Al terminar (~15 min), en el run → **Artifacts**:
    - `PanicRawTek-macOS-pkg` → **Panic Raw Tek 3.x.x macOS.pkg** (Universal: Apple Silicon + Intel)
    - `PanicRawTek-Windows-exe` → **Panic Raw Tek 3.x.x Windows Setup.exe** (64-bit)
-4. Si subís un tag (`git tag v3.1.0 && git push --tags`), además crea un **Release** con los dos instaladores para descargar.
+4. Si subís un tag (`git tag v3.2.0 && git push --tags`), además crea un **Release** con los dos instaladores para descargar.
 
 ### Opción B — Generarlos en tu computadora
 - **Mac:** doble click en `crear_instalador_mac.command` (necesita Xcode Command Line Tools + CMake). Deja el `.pkg` en `dist/`.
@@ -90,7 +90,7 @@ Para distribuirlo sin avisos: en Mac, Apple Developer ID (USD 99/año) + notariz
 
 1. Generá la página con tu repo: `python3 tools/build_landing.py TU_USUARIO/TU_REPO`
    (los botones apuntan a `https://github.com/TU_USUARIO/TU_REPO/releases/latest/download/PanicRawTek-macOS.pkg` y `...-Windows-Setup.exe`).
-2. Subí un tag (`git tag v3.1.0 && git push --tags`): el workflow crea el Release con esos dos archivos.
+2. Subí un tag (`git tag v3.2.0 && git push --tags`): el workflow crea el Release con esos dos archivos.
 3. En GitHub: **Settings → Pages → Deploy from a branch → main / docs**. La landing queda en `https://TU_USUARIO.github.io/TU_REPO/`.
 
 Para editar textos, cambiá `docs/index.template.html` y volvé a correr el paso 1.

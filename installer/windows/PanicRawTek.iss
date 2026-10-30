@@ -4,7 +4,7 @@
 ; =============================================================================
 
 #ifndef MyAppVersion
-  #define MyAppVersion "3.1.0"
+  #define MyAppVersion "3.2.0"
 #endif
 #ifndef ArtDir
   #define ArtDir "..\..\build\PanicRawTek_artefacts\Release"

@@ -36,16 +36,16 @@ public:
     void drawLinearSlider (juce::Graphics&, int x, int y, int w, int h, float pos, float minPos, float maxPos,
                            juce::Slider::SliderStyle, juce::Slider&) override;
     void drawComboBox (juce::Graphics&, int w, int h, bool down, int bx, int by, int bw, int bh, juce::ComboBox&) override;
-    juce::Font getComboBoxFont (juce::ComboBox&) override { return mono (11.0f); }
-    juce::Font getPopupMenuFont() override { return mono (12.5f, false); }
+    juce::Font getComboBoxFont (juce::ComboBox&) override { return mono (12.5f); }
+    juce::Font getPopupMenuFont() override { return mono (14.0f, false); }
     void positionComboBoxText (juce::ComboBox&, juce::Label&) override;
     void drawPopupMenuBackground (juce::Graphics&, int w, int h) override;
     void drawButtonBackground (juce::Graphics&, juce::Button&, const juce::Colour&, bool, bool) override;
     void drawButtonText (juce::Graphics&, juce::TextButton&, bool, bool) override;
-    juce::Font getTextButtonFont (juce::TextButton&, int) override { return mono (10.5f); }
-    juce::Font getAlertWindowTitleFont() override { return display (24.0f); }
-    juce::Font getAlertWindowMessageFont() override { return mono (12.0f, false); }
-    juce::Font getAlertWindowFont() override { return mono (12.0f, false); }
+    juce::Font getTextButtonFont (juce::TextButton&, int) override { return mono (12.0f); }
+    juce::Font getAlertWindowTitleFont() override { return display (26.0f); }
+    juce::Font getAlertWindowMessageFont() override { return mono (13.5f, false); }
+    juce::Font getAlertWindowFont() override { return mono (13.5f, false); }
 };
 
 // Encoder con anillo LED, etiqueta arriba y valor abajo
@@ -142,7 +142,7 @@ public:
     void paint (juce::Graphics&) override;
     void resized() override;
 
-    static constexpr int kDesignW = 1320, kDesignH = 672;
+    static constexpr int kDesignW = 1440, kDesignH = 728;
 
 private:
     struct Content : public juce::Component
@@ -172,9 +172,9 @@ private:
     float scale = 1.0f;
 
     // OSC A / B / MIX
-    panic::Choice osc1Wave, osc2Wave;
+    panic::Choice osc1Wave, osc2Wave, wtA, wtB;
     panic::Toggle hardSync;
-    panic::Knob pw, uniA, detA, osc2Semi, osc2Detune, uniB, detB, oscMix, sub, noise, spread;
+    panic::Knob wtPosA, wtPosB, pw, uniA, detA, osc2Semi, osc2Detune, uniB, detB, oscMix, sub, noise, spread;
     // METAL / FILTER / VOICE
     panic::Knob fm, fmEnv, ring, pitchEnv, pitchDecay;
     panic::Choice filterMode, voiceMode;

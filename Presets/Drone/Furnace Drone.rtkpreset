@@ -20,5 +20,5 @@
   <PARAM id="combDamp" value="0.6"/>
   <PARAM id="distAmt" value="0.4"/>
   <PARAM id="mode" value="1"/>
-  <PARAM id="volume" value="-4.5"/>
+  <PARAM id="volume" value="-4.6"/>
 </RawTekPreset>

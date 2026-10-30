@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Grit Lead" category="Wavetable" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="4"/>
+  <PARAM id="wtA" value="7"/>
+  <PARAM id="wtPosA" value="0.6"/>
+  <PARAM id="osc2Wave" value="4"/>
+  <PARAM id="wtB" value="7"/>
+  <PARAM id="wtPosB" value="0.8"/>
+  <PARAM id="osc2Detune" value="12"/>
+  <PARAM id="uniA" value="3"/>
+  <PARAM id="detA" value="0.25"/>
+  <PARAM id="cutoff" value="2400"/>
+  <PARAM id="reso" value="0.25"/>
+  <PARAM id="envAmt" value="0.25"/>
+  <PARAM id="fD" value="0.3"/>
+  <PARAM id="aS" value="0.85"/>
+  <PARAM id="aR" value="0.2"/>
+  <PARAM id="glide" value="0.04"/>
+  <PARAM id="m1Src" value="8"/>
+  <PARAM id="m1Dst" value="17"/>
+  <PARAM id="m1Amt" value="0.4"/>
+  <PARAM id="m2Src" value="8"/>
+  <PARAM id="m2Dst" value="18"/>
+  <PARAM id="m2Amt" value="0.2"/>
+  <PARAM id="dlyMix" value="0.15"/>
+  <PARAM id="dlyDiv" value="11"/>
+  <PARAM id="dlyFb" value="0.4"/>
+  <PARAM id="dlyTone" value="0.45"/>
+  <PARAM id="dlyPing" value="1"/>
+  <PARAM id="distType" value="1"/>
+  <PARAM id="distAmt" value="0.3"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-6.5"/>
+</RawTekPreset>

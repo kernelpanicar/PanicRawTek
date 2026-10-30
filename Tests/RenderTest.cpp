@@ -28,7 +28,7 @@ std::vector<Hit> patternFor (const String& cat)
         for (int s = 0; s < 32; ++s)
             hits.push_back ({ s, { bassLine[s % 16] + off }, 0.6, (s % 4 == 2) ? 1.0f : 0.6f });
     }
-    else if (cat == "Metal" || cat == "Pluck" || cat == "Perc" || cat == "Groove" || cat == "Hard Groove" || cat == "Groove Perc" || cat == "Old School")
+    else if (cat == "Metal" || cat == "Pluck" || cat == "Perc" || cat == "Groove" || cat == "Hard Groove" || cat == "Groove Perc" || cat == "Old School" || cat == "Wavetable")
     {
         const int steps[] = { 0, 3, 6, 8, 10, 11, 14 };
         const int notes[] = { 48, 48, 55, 51, 48, 58, 53 };

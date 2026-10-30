@@ -29,5 +29,5 @@
   <PARAM id="m1Amt" value="0.15"/>
   <PARAM id="distAmt" value="0.3"/>
   <PARAM id="mode" value="1"/>
-  <PARAM id="volume" value="3.3"/>
+  <PARAM id="volume" value="3.8"/>
 </RawTekPreset>

@@ -30,5 +30,5 @@
   <PARAM id="chDepth" value="0.5"/>
   <PARAM id="distAmt" value="0.15"/>
   <PARAM id="mode" value="1"/>
-  <PARAM id="volume" value="4.5"/>
+  <PARAM id="volume" value="5.5"/>
 </RawTekPreset>

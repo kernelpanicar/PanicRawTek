@@ -38,7 +38,14 @@ std::unique_ptr<AudioParameterChoice> cparam (const char* id, const char* name, 
     return std::make_unique<AudioParameterChoice> (ParameterID { id, 1 }, name, choices, def);
 }
 
-const StringArray waveNames { "Saw", "Square", "Pulse", "Triangle" };
+const StringArray waveNames { "Saw", "Square", "Pulse", "Triangle", "Wavetable" };
+
+StringArray wtNames()
+{
+    StringArray s;
+    for (int i = 0; i < rawtek::wt::kNumTables; ++i) s.add (rawtek::wt::tableNames()[i]);
+    return s;
+}
 } // namespace
 
 StringArray RawTekProcessor::divisionNames()
@@ -54,7 +61,7 @@ StringArray RawTekProcessor::modSourceNames()
 StringArray RawTekProcessor::modDestNames()
 {
     return { "Off", "Cutoff", "Resonance", "Pitch", "Osc B Pitch", "Pulse Width", "Osc Mix", "FM", "Ring",
-             "Unison Det", "Noise", "Sub", "Drive", "Res Tune", "Res Mix", "Amp", "Pan" };
+             "Unison Det", "Noise", "Sub", "Drive", "Res Tune", "Res Mix", "Amp", "Pan", "WT Pos A", "WT Pos B" };
 }
 
 static double divisionBeats (int idx)
@@ -70,6 +77,10 @@ AudioProcessorValueTreeState::ParameterLayout RawTekProcessor::createLayout()
     // --- Osciladores
     p.push_back (cparam ("osc1Wave", "Osc1 Wave", waveNames, 0));
     p.push_back (cparam ("osc2Wave", "Osc2 Wave", waveNames, 0));
+    p.push_back (cparam ("wtA", "Osc A Table", wtNames(), 0));
+    p.push_back (fparam ("wtPosA", "Osc A WT Pos", { 0.0f, 1.0f }, 0.0f, fmtPct));
+    p.push_back (cparam ("wtB", "Osc B Table", wtNames(), 0));
+    p.push_back (fparam ("wtPosB", "Osc B WT Pos", { 0.0f, 1.0f }, 0.0f, fmtPct));
     p.push_back (fparam ("pw", "Pulse Width", { 0.05f, 0.5f }, 0.25f, fmtPct));
     p.push_back (fparam ("osc2Semi", "Osc2 Semi", { -24.0f, 24.0f, 1.0f }, 0.0f, fmtSemi));
     p.push_back (fparam ("osc2Detune", "Osc2 Detune", { 0.0f, 50.0f }, 7.0f, fmtCent));
@@ -239,7 +250,7 @@ struct EmbeddedPreset { String name, category, xml; };
 
 int categoryRank (const String& c)
 {
-    static const StringArray order { "Hard Groove", "Groove Perc", "Old School", "Groove", "Rave", "Metal", "Pluck", "Bass", "Stab", "Perc", "Lead", "Drone", "FX" };
+    static const StringArray order { "Hard Groove", "Wavetable", "Groove Perc", "Old School", "Groove", "Rave", "Metal", "Pluck", "Bass", "Stab", "Perc", "Lead", "Drone", "FX" };
     const int i = order.indexOf (c);
     return i >= 0 ? i : 500;
 }
@@ -431,6 +442,10 @@ void RawTekProcessor::updateEngineParams()
     e.osc1Wave   = (rawtek::Wave) (int) getP ("osc1Wave");
     e.osc2Wave   = (rawtek::Wave) (int) getP ("osc2Wave");
     e.pulseWidth = getP ("pw");
+    e.wtTableA   = (int) getP ("wtA");
+    e.wtPosA     = getP ("wtPosA");
+    e.wtTableB   = (int) getP ("wtB");
+    e.wtPosB     = getP ("wtPosB");
     e.osc2Semi   = getP ("osc2Semi");
     e.osc2Detune = getP ("osc2Detune");
     e.oscMix     = getP ("oscMix");

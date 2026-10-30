@@ -1,6 +1,6 @@
 <title>Panic Raw Tek</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Panic Raw Tek: synth VST3 / AU para raw techno, hard groove y techno hipnótico. 152 presets. Mac y Windows.">
+<meta name="description" content="Panic Raw Tek: synth VST3 / AU para raw techno, hard groove y techno hipnótico. 170 presets. Mac y Windows.">
 <link rel="icon" type="image/png" href="assets/icon-128.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -166,6 +166,9 @@ section.band > .wrap { padding-block: 64px; }
 .steps b { font-weight: 700; }
 .steps code, .warn code { font-family: var(--f-mono); font-size: 0.86em; background: var(--lcd); border: 1px solid var(--edge); padding: 1px 5px; color: var(--yellow); }
 .warn { margin-top: 14px; padding: 14px 16px; border-left: 4px solid var(--red); background: var(--panel); font-size: var(--s-2); color: var(--text); }
+.warn ol { margin: 8px 0 8px; padding-left: 20px; display: grid; gap: 4px; }
+.warn .sub { display: block; color: var(--dim); font-size: 12.5px; margin-top: 6px; }
+.warn code { overflow-wrap: anywhere; }
 .warn strong { color: var(--red); font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.1em; display: block; margin-bottom: 4px; }
 
 /* ---------- faq + footer */
@@ -196,13 +199,13 @@ footer .mono { font-size: 12px; color: var(--dim); }
           <span class="chip">VST3</span><span class="chip">AU</span><span class="chip">STANDALONE</span><span class="chip">MAC + WINDOWS</span>
         </div>
         <h1 class="logo"><span class="panic">PANIC</span><span class="rawtek">RAW TEK</span></h1>
-        <p class="lede">Synth para <strong>raw techno, hard groove</strong> y techno hipnótico. Stabs con dub delay, supersaws rave, bleeps FM, metales y un kit entero de percusión sintetizada. <strong>152 presets</strong> listos para el loop.</p>
+        <p class="lede">Synth para <strong>raw techno, hard groove</strong> y techno hipnótico. Osciladores wavetable, stabs con dub delay, supersaws rave, bleeps FM, metales y un kit entero de percusión sintetizada. <strong>170 presets</strong> listos para el loop.</p>
         <div class="downloads" id="descargar">
           <a class="dl" id="dl-mac" href="#instalar">
             <span class="yours" hidden>TU SISTEMA</span>
             <span class="os">MAC</span>
             <span class="what">Instalador .pkg</span>
-            <span class="req">macOS 11+ · Apple Silicon e Intel</span>
+            <span class="req">macOS 11+ · Apple Silicon e Intel · ver aviso de seguridad</span>
           </a>
           <a class="dl" id="dl-win" href="#instalar">
             <span class="yours" hidden>TU SISTEMA</span>
@@ -211,7 +214,7 @@ footer .mono { font-size: 12px; color: var(--dim); }
             <span class="req">Windows 10 / 11 · 64 bits · requiere admin</span>
           </a>
         </div>
-        <p class="dl-note" id="dl-note">Versión <span id="ver">3.1.0</span> · VST3 para Ableton Live, FL Studio, Bitwig, Reaper y Cubase · AU para Ableton y Logic</p>
+        <p class="dl-note" id="dl-note">Versión <span id="ver">3.2.0</span> · VST3 para Ableton Live, FL Studio, Bitwig, Reaper y Cubase · AU para Ableton y Logic</p>
       </div>
       <figure class="shot">
         <img src="assets/ui-matrix.jpg" width="1320" height="672" alt="Interfaz de Panic Raw Tek: osciladores, filtro, envolventes, resonador, LFOs, osciloscopio y matriz de modulación en negro y amarillo">
@@ -297,7 +300,7 @@ footer .mono { font-size: 12px; color: var(--dim); }
     <div class="wrap">
       <div class="sec-head">
         <span class="sec-tag">PRESETS</span>
-        <h2>152 presets incluidos</h2>
+        <h2>170 presets incluidos</h2>
         <p>Vienen adentro del plugin, ordenados por categoría en el menú. Nivelados para que al cambiar de uno a otro no salte el volumen.</p>
       </div>
       <div class="pbar" id="pbar" role="group" aria-label="Filtrar por categoría"></div>
@@ -324,12 +327,22 @@ footer .mono { font-size: 12px; color: var(--dim); }
       </div>
       <div id="os-mac">
         <ol class="steps">
-          <li class="panel"><span>Descargá <b>Panic Raw Tek macOS.pkg</b> y abrilo. Podés elegir VST3, Audio Unit y la app standalone en <b>Personalizar</b>.</span></li>
+          <li class="panel"><span>Descargá <b>PanicRawTek-macOS.pkg</b> y abrilo con doble click. La primera vez macOS lo bloquea porque no tiene firma de Apple: seguí los pasos del recuadro amarillo de abajo. Podés elegir VST3, Audio Unit y la app standalone en <b>Personalizar</b>.</span></li>
           <li class="panel"><span>Se instala en <code>/Library/Audio/Plug-Ins</code> y la app en <code>/Applications</code>. Si tenías el viejo RawTek, se reemplaza.</span></li>
           <li class="panel"><span>En Ableton: <b>Settings → Plug-Ins</b>, activá <i>Use Audio Units v2</i> o <i>Use VST3 Plug-In System Folders</i>, mantené <b>Option (⌥)</b> y hacé click en <b>Rescan</b>.</span></li>
           <li class="panel"><span>Lo encontrás en <b>Plug-Ins → Panic Audio → Panic Raw Tek</b>.</span></li>
         </ol>
-        <div class="warn"><strong>SI MACOS NO LO DEJA ABRIR</strong>El instalador no tiene firma de Apple. Hacé click derecho sobre el .pkg → <b>Abrir</b>, o andá a <i>Configuración del Sistema → Privacidad y seguridad → Abrir igualmente</i>.</div>
+        <div class="warn mac-sec">
+          <strong>MACOS: "NO SE PUEDE ABRIR" O "APPLE NO PUDO VERIFICAR…"</strong>
+          El instalador no tiene firma de Apple (cuesta USD 99 por año), así que macOS lo frena la primera vez. Se habilita una sola vez:
+          <ol>
+            <li>Hacé doble click en el .pkg. Cuando aparezca el aviso, tocá <b>OK</b> o <b>Listo</b> (no "Mover a la papelera").</li>
+            <li>Abrí <b>Configuración del Sistema</b> (menú  → Configuración del Sistema) → <b>Privacidad y seguridad</b>.</li>
+            <li>Bajá hasta la sección <b>Seguridad</b>. Vas a ver <i>"Se bloqueó «PanicRawTek-macOS.pkg» para proteger tu Mac"</i>. Hacé click en <b>Abrir igualmente</b>.</li>
+            <li>Confirmá con tu contraseña o Touch ID y en el siguiente aviso elegí <b>Abrir igualmente</b> otra vez. Se abre el instalador.</li>
+          </ol>
+          <span class="sub">En macOS 14 o anterior también funciona click derecho sobre el .pkg → <b>Abrir</b> → <b>Abrir</b>. Alternativa por Terminal: <code>xattr -d com.apple.quarantine ~/Downloads/PanicRawTek-macOS.pkg</code> y después abrilo normalmente.</span>
+        </div>
       </div>
       <div id="os-win" hidden>
         <ol class="steps">
@@ -361,7 +374,7 @@ footer .mono { font-size: 12px; color: var(--dim); }
 <footer>
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Volver arriba"><span class="p">PANIC</span><span class="tag">RAW TEK</span></a>
-    <span class="mono">Panic Audio · v<span id="ver2">3.1.0</span> · VST3 / AU / Standalone · macOS 11+ · Windows 10/11</span>
+    <span class="mono">Panic Audio · v<span id="ver2">3.2.0</span> · VST3 / AU / Standalone · macOS 11+ · Windows 10/11</span>
   </div>
 </footer>
 
@@ -373,7 +386,7 @@ footer .mono { font-size: 12px; color: var(--dim); }
    ============================================================ */
 const CONFIG = {
   repo: "__REPO__",
-  version: "3.1.0",
+  version: "3.2.0",
 };
 
 const DATA = __DATA__;

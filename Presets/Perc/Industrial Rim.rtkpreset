@@ -16,5 +16,5 @@
   <PARAM id="aA" value="0.001"/>
   <PARAM id="aS" value="0.0"/>
   <PARAM id="mode" value="1"/>
-  <PARAM id="volume" value="2.6"/>
+  <PARAM id="volume" value="2.5"/>
 </RawTekPreset>
