@@ -12,7 +12,9 @@ permissions:
 jobs:
   macos:
     name: macOS .pkg (Universal)
-    runs-on: macos-latest
+    # Runner Intel: suele tener más disponibilidad que los arm64. Xcode compila Universal igual.
+    runs-on: macos-15-intel
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
 
@@ -76,7 +78,7 @@ jobs:
 
   release:
     name: GitHub Release (solo con tags v*)
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: always() && startsWith(github.ref, 'refs/tags/v') && (needs.macos.result == 'success' || needs.windows.result == 'success')
     needs: [ macos, windows ]
     runs-on: ubuntu-latest
     steps:
@@ -86,10 +88,12 @@ jobs:
       - name: Copias con nombre fijo (para los links de la landing)
         run: |
           mkdir -p stable
-          cp out/PanicRawTek-macOS-pkg/*.pkg "stable/PanicRawTek-macOS.pkg"
-          cp out/PanicRawTek-Windows-exe/*.exe "stable/PanicRawTek-Windows-Setup.exe"
+          if ls out/PanicRawTek-macOS-pkg/*.pkg >/dev/null 2>&1; then cp out/PanicRawTek-macOS-pkg/*.pkg "stable/PanicRawTek-macOS.pkg"; fi
+          if ls out/PanicRawTek-Windows-exe/*.exe >/dev/null 2>&1; then cp out/PanicRawTek-Windows-exe/*.exe "stable/PanicRawTek-Windows-Setup.exe"; fi
+          ls -la stable
       - uses: softprops/action-gh-release@v2
         with:
+          fail_on_unmatched_files: false
           files: |
             out/**/*.pkg
             out/**/*.exe
