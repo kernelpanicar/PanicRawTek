@@ -14,7 +14,7 @@ if errorlevel 1 (
 )
 
 echo ^>^> Configurando...
-cmake -B build-win -G "Visual Studio 17 2022" -A x64 > build_config_log.txt 2>&1
+cmake -B build-win -A x64 > build_config_log.txt 2>&1
 if errorlevel 1 ( type build_config_log.txt & pause & exit /b 1 )
 
 echo ^>^> Compilando Panic Raw Tek (VST3 + Standalone)... tarda unos minutos

@@ -14,7 +14,7 @@ jobs:
     name: macOS .pkg (Universal)
     runs-on: macos-14
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Configure
         run: cmake -B build -DCMAKE_BUILD_TYPE=Release
@@ -49,10 +49,10 @@ jobs:
     name: Windows .exe (x64)
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Configure
-        run: cmake -B build-win -G "Visual Studio 17 2022" -A x64
+        run: cmake -B build-win -A x64
 
       - name: Build VST3 + Standalone
         run: cmake --build build-win --config Release --target PanicRawTek_VST3 PanicRawTek_Standalone -- /m
