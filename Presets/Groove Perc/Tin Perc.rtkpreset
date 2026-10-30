@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Tin Perc" category="Groove Perc" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="1"/>
+  <PARAM id="osc2Wave" value="1"/>
+  <PARAM id="osc2Semi" value="17"/>
+  <PARAM id="osc2Detune" value="31"/>
+  <PARAM id="ring" value="0.8"/>
+  <PARAM id="filterMode" value="3"/>
+  <PARAM id="cutoff" value="1200"/>
+  <PARAM id="reso" value="0.2"/>
+  <PARAM id="envAmt" value="0.0"/>
+  <PARAM id="keyTrack" value="0.5"/>
+  <PARAM id="aD" value="0.08"/>
+  <PARAM id="aR" value="0.06"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="distType" value="1"/>
+  <PARAM id="distAmt" value="0.25"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="2.2"/>
+</RawTekPreset>

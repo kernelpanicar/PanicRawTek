@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Stomp Stab" category="Hard Groove" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="1"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Detune" value="12"/>
+  <PARAM id="pitchEnv" value="12"/>
+  <PARAM id="pitchDecay" value="0.015"/>
+  <PARAM id="cutoff" value="1800"/>
+  <PARAM id="envAmt" value="0.2"/>
+  <PARAM id="fD" value="0.05"/>
+  <PARAM id="aD" value="0.1"/>
+  <PARAM id="aR" value="0.08"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="distType" value="1"/>
+  <PARAM id="distAmt" value="0.55"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="-1.2"/>
+</RawTekPreset>

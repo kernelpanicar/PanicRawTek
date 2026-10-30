@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Down Lifter" category="FX" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="noise" value="0.7"/>
+  <PARAM id="cutoff" value="200"/>
+  <PARAM id="reso" value="0.4"/>
+  <PARAM id="envAmt" value="1.0"/>
+  <PARAM id="fA" value="0.001"/>
+  <PARAM id="fD" value="3.0"/>
+  <PARAM id="fS" value="0.0"/>
+  <PARAM id="aD" value="3.0"/>
+  <PARAM id="aR" value="1.0"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="revMix" value="0.4"/>
+  <PARAM id="revSize" value="0.8"/>
+  <PARAM id="revDamp" value="0.45"/>
+  <PARAM id="revPre" value="0.01"/>
+  <PARAM id="revLowCut" value="150"/>
+  <PARAM id="distAmt" value="0.3"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-3.7"/>
+</RawTekPreset>

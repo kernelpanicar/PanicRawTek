@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Crushed Bass" category="Bass" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="1"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="sub" value="0.5"/>
+  <PARAM id="cutoff" value="600"/>
+  <PARAM id="reso" value="0.2"/>
+  <PARAM id="envAmt" value="0.2"/>
+  <PARAM id="aS" value="0.8"/>
+  <PARAM id="distType" value="3"/>
+  <PARAM id="distAmt" value="0.5"/>
+  <PARAM id="distMix" value="0.7"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-3.4"/>
+</RawTekPreset>

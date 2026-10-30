@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Dub Chord Raw" category="Stab" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Detune" value="12"/>
+  <PARAM id="cutoff" value="700"/>
+  <PARAM id="reso" value="0.35"/>
+  <PARAM id="envAmt" value="0.4"/>
+  <PARAM id="fD" value="0.25"/>
+  <PARAM id="aD" value="0.4"/>
+  <PARAM id="aS" value="0.1"/>
+  <PARAM id="aR" value="0.4"/>
+  <PARAM id="combMix" value="0.35"/>
+  <PARAM id="combTune" value="12"/>
+  <PARAM id="combFb" value="0.7"/>
+  <PARAM id="combDamp" value="0.5"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="-1.3"/>
+</RawTekPreset>

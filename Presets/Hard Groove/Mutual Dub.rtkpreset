@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Mutual Dub" category="Hard Groove" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Semi" value="7"/>
+  <PARAM id="osc2Detune" value="6"/>
+  <PARAM id="uniA" value="3"/>
+  <PARAM id="detA" value="0.2"/>
+  <PARAM id="filterMode" value="1"/>
+  <PARAM id="cutoff" value="700"/>
+  <PARAM id="reso" value="0.35"/>
+  <PARAM id="envAmt" value="0.3"/>
+  <PARAM id="fD" value="0.2"/>
+  <PARAM id="aD" value="0.4"/>
+  <PARAM id="aS" value="0.05"/>
+  <PARAM id="aR" value="0.3"/>
+  <PARAM id="dlyMix" value="0.55"/>
+  <PARAM id="dlyDiv" value="11"/>
+  <PARAM id="dlyFb" value="0.7"/>
+  <PARAM id="dlyTone" value="0.3"/>
+  <PARAM id="dlyPing" value="1"/>
+  <PARAM id="revMix" value="0.4"/>
+  <PARAM id="revSize" value="0.8"/>
+  <PARAM id="revDamp" value="0.5"/>
+  <PARAM id="revPre" value="0.02"/>
+  <PARAM id="revLowCut" value="400"/>
+  <PARAM id="distAmt" value="0.2"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="6.3"/>
+</RawTekPreset>

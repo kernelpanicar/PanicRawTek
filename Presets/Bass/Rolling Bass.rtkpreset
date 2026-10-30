@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Rolling Bass" category="Bass" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="1"/>
+  <PARAM id="osc2Semi" value="-12"/>
+  <PARAM id="osc2Detune" value="0"/>
+  <PARAM id="cutoff" value="260"/>
+  <PARAM id="reso" value="0.35"/>
+  <PARAM id="drive" value="0.5"/>
+  <PARAM id="envAmt" value="0.45"/>
+  <PARAM id="fD" value="0.09"/>
+  <PARAM id="aD" value="0.12"/>
+  <PARAM id="aS" value="0.2"/>
+  <PARAM id="aR" value="0.05"/>
+  <PARAM id="distType" value="0"/>
+  <PARAM id="distAmt" value="0.5"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-5.7"/>
+</RawTekPreset>

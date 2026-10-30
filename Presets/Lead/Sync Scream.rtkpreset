@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Sync Scream" category="Lead" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Semi" value="17"/>
+  <PARAM id="osc2Detune" value="0"/>
+  <PARAM id="oscMix" value="1.0"/>
+  <PARAM id="sync" value="1"/>
+  <PARAM id="cutoff" value="3000"/>
+  <PARAM id="reso" value="0.3"/>
+  <PARAM id="envAmt" value="0.2"/>
+  <PARAM id="lfoWave" value="0"/>
+  <PARAM id="lfoRate" value="0.25"/>
+  <PARAM id="lfoDepth" value="0.3"/>
+  <PARAM id="aS" value="0.9"/>
+  <PARAM id="distType" value="0"/>
+  <PARAM id="distAmt" value="0.5"/>
+  <PARAM id="glide" value="0.03"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-7.8"/>
+</RawTekPreset>

@@ -1,0 +1,1284 @@
+[  0%] Generating juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData1.cpp, juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData2.cpp, juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData3.cpp, juce_binarydata_PanicFontData/JuceLibraryCode/FontData.h
+[  0%] Generating juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData1.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData2.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData3.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData4.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData5.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData6.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData7.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData8.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData9.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData10.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData11.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData12.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData13.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData14.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData15.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData16.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData17.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData18.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData19.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData20.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData21.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData22.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData23.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData24.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData25.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData26.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData27.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData28.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData29.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData30.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData31.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData32.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData33.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData34.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData35.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData36.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData37.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData38.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData39.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData40.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData41.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData42.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData43.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData44.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData45.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData46.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData47.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData48.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData49.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData50.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData51.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData52.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData53.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData54.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData55.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData56.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData57.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData58.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData59.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData60.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData61.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData62.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData63.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData64.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData65.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData66.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData67.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData68.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData69.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData70.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData71.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData72.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData73.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData74.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData75.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData76.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData77.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData78.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData79.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData80.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData81.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData82.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData83.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData84.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData85.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData86.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData87.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData88.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData89.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData90.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData91.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData92.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData93.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData94.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData95.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData96.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData97.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData98.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData99.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData100.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData101.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData102.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData103.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData104.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData105.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData106.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData107.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData108.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData109.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData110.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData111.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData112.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData113.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData114.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData115.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData116.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData117.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData118.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData119.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData120.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData121.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData122.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData123.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData124.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData125.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData126.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData127.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData128.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData129.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData130.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData131.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData132.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData133.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData134.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData135.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData136.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData137.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData138.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData139.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData140.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData141.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData142.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData143.cpp, juce_binarydata_PanicPresetData/JuceLibraryCode/PresetData.h
+[  0%] Building CXX object CMakeFiles/juce_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+[  0%] Building CXX object CMakeFiles/PanicFontData.dir/juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData1.cpp.o
+[  1%] Building CXX object CMakeFiles/PanicFontData.dir/juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData2.cpp.o
+[  1%] Building CXX object CMakeFiles/PanicFontData.dir/juce_binarydata_PanicFontData/JuceLibraryCode/BinaryData3.cpp.o
+[  2%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData4.cpp.o
+[  2%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData1.cpp.o
+[  3%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData5.cpp.o
+[  4%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData3.cpp.o
+[  4%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData6.cpp.o
+[  5%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData7.cpp.o
+[  5%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData2.cpp.o
+[  5%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData8.cpp.o
+[  6%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData9.cpp.o
+[  6%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData10.cpp.o
+[  6%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData12.cpp.o
+[  7%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData13.cpp.o
+[  9%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData11.cpp.o
+[  9%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData14.cpp.o
+[ 10%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData16.cpp.o
+[ 10%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData15.cpp.o
+[ 11%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData18.cpp.o
+[ 11%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData17.cpp.o
+[ 11%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData19.cpp.o
+[ 12%] Linking CXX static library libPanicFontData.a
+[ 12%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData21.cpp.o
+[ 13%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData20.cpp.o
+[ 14%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData22.cpp.o
+[ 14%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData23.cpp.o
+[ 15%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData27.cpp.o
+[ 15%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData24.cpp.o
+[ 15%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData25.cpp.o
+[ 17%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData26.cpp.o
+[ 17%] Built target PanicFontData
+[ 18%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData28.cpp.o
+[ 18%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData29.cpp.o
+[ 19%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData30.cpp.o
+[ 19%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData31.cpp.o
+[ 20%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData32.cpp.o
+[ 20%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData33.cpp.o
+[ 20%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData34.cpp.o
+[ 20%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData36.cpp.o
+[ 21%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData35.cpp.o
+[ 22%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData37.cpp.o
+[ 22%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData38.cpp.o
+[ 23%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData39.cpp.o
+[ 23%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData40.cpp.o
+[ 23%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData42.cpp.o
+[ 25%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData41.cpp.o
+[ 26%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData43.cpp.o
+[ 26%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData44.cpp.o
+[ 26%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData46.cpp.o
+[ 27%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData45.cpp.o
+[ 28%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData48.cpp.o
+[ 28%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData47.cpp.o
+[ 29%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData49.cpp.o
+[ 29%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData52.cpp.o
+[ 30%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData51.cpp.o
+[ 30%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData50.cpp.o
+[ 30%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData53.cpp.o
+[ 31%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData54.cpp.o
+[ 31%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData55.cpp.o
+[ 32%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData56.cpp.o
+[ 32%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData57.cpp.o
+[ 34%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData58.cpp.o
+[ 34%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData59.cpp.o
+[ 34%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData61.cpp.o
+[ 35%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData60.cpp.o
+[ 36%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData62.cpp.o
+[ 36%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData63.cpp.o
+[ 37%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData64.cpp.o
+[ 37%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData65.cpp.o
+[ 38%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData66.cpp.o
+[ 38%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData67.cpp.o
+[ 39%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData68.cpp.o
+[ 39%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData69.cpp.o
+[ 40%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData70.cpp.o
+[ 40%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData71.cpp.o
+[ 40%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData72.cpp.o
+[ 42%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData73.cpp.o
+[ 42%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData74.cpp.o
+[ 43%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData75.cpp.o
+[ 44%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData77.cpp.o
+[ 44%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData76.cpp.o
+[ 44%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData78.cpp.o
+[ 45%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData79.cpp.o
+[ 46%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData81.cpp.o
+[ 46%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData80.cpp.o
+[ 46%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData82.cpp.o
+[ 47%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData83.cpp.o
+[ 47%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData84.cpp.o
+[ 47%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData86.cpp.o
+[ 48%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData87.cpp.o
+[ 50%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData85.cpp.o
+[ 50%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData88.cpp.o
+[ 51%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData89.cpp.o
+[ 51%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData90.cpp.o
+[ 51%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData91.cpp.o
+[ 52%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData92.cpp.o
+[ 52%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData93.cpp.o
+[ 53%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData94.cpp.o
+[ 54%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData96.cpp.o
+[ 54%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData95.cpp.o
+[ 54%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData97.cpp.o
+[ 55%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData98.cpp.o
+[ 55%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData99.cpp.o
+[ 56%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData100.cpp.o
+[ 56%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData101.cpp.o
+[ 57%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData102.cpp.o
+[ 57%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData103.cpp.o
+[ 57%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData105.cpp.o
+[ 59%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData104.cpp.o
+[ 60%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData106.cpp.o
+[ 60%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData107.cpp.o
+[ 61%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData108.cpp.o
+[ 61%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData109.cpp.o
+[ 61%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData110.cpp.o
+[ 62%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData111.cpp.o
+[ 62%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData112.cpp.o
+[ 63%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData113.cpp.o
+[ 63%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData114.cpp.o
+[ 64%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData115.cpp.o
+[ 65%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData117.cpp.o
+[ 65%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData116.cpp.o
+[ 65%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData118.cpp.o
+[ 67%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData119.cpp.o
+[ 67%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData120.cpp.o
+[ 68%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData121.cpp.o
+[ 68%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData122.cpp.o
+[ 68%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData124.cpp.o
+[ 69%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData123.cpp.o
+[ 70%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData125.cpp.o
+[ 70%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData126.cpp.o
+[ 71%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData127.cpp.o
+[ 71%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData128.cpp.o
+[ 71%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData129.cpp.o
+[ 72%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData130.cpp.o
+[ 72%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData131.cpp.o
+[ 73%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData132.cpp.o
+[ 73%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData133.cpp.o
+[ 73%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData135.cpp.o
+[ 75%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData134.cpp.o
+[ 76%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData136.cpp.o
+[ 76%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData137.cpp.o
+[ 77%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData138.cpp.o
+[ 77%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData139.cpp.o
+[ 78%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData140.cpp.o
+[ 78%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData141.cpp.o
+[ 79%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData142.cpp.o
+[ 79%] Building CXX object CMakeFiles/PanicPresetData.dir/juce_binarydata_PanicPresetData/JuceLibraryCode/BinaryData143.cpp.o
+[ 80%] Linking CXX static library libPanicPresetData.a
+[ 80%] Built target PanicPresetData
+[ 81%] Building CXX object CMakeFiles/PanicRawTek.dir/Source/PluginEditor.cpp.o
+[ 81%] Building CXX object CMakeFiles/PanicRawTek.dir/Source/PluginProcessor.cpp.o
+[ 81%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+[ 81%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+[ 82%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.mm.o
+[ 84%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm.o
+[ 84%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_gui_extra/juce_gui_extra.mm.o
+[ 84%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[ 85%] Building C object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[ 85%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_graphics/juce_graphics.mm.o
+[ 86%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_events/juce_events.mm.o
+[ 86%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o
+[ 87%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:76:39: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   76 |         const float a0 = startAngle + i * segSpan + segSpan * 0.18f;
+      |                                       ^ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:77:42: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   77 |         const float a1 = startAngle + (i + 1) * segSpan - segSpan * 0.18f;
+      |                                        ~~^~~  ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:364:78: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  364 |         g.drawVerticalLine ((int) (scopeArea.getX() + scopeArea.getWidth() * i / 10.0f), scopeArea.getY(), scopeArea.getBottom());
+      |                                                                            ~ ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:366:81: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  366 |         g.drawHorizontalLine ((int) (scopeArea.getY() + scopeArea.getHeight() * i / 4.0f), scopeArea.getX(), scopeArea.getRight());
+      |                                                                               ~ ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:459:59: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  459 |         auto row = Rectangle<float> (r.getX(), r.getY() + i * h, r.getWidth(), h).reduced (0, 3);
+      |                                                           ^ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:520:104: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  520 |         else if (m.isPitchWheel())                        engine.setPitchBend ((m.getPitchWheelValue() - 8192) / 8192.0f);
+      |                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~  ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:521:81: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  521 |         else if (m.isControllerOfType (1))                engine.setModWheel (m.getControllerValue() / 127.0f);
+      |                                                                               ~~^~~~~~~~~~~~~~~~~~~~ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:522:83: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  522 |         else if (m.isChannelPressure())                   engine.setAftertouch (m.getChannelPressureValue() / 127.0f);
+      |                                                                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:523:83: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  523 |         else if (m.isAftertouch())                        engine.setAftertouch (m.getAfterTouchValue() / 127.0f);
+      |                                                                                 ~~^~~~~~~~~~~~~~~~~~~~ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:633:15: warning: declaration shadows a field of 'RawTekEditor' [-Wshadow]
+  633 |     PopupMenu sub;
+      |               ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.h:177:75: note: previous declaration is here
+  177 |     panic::Knob pw, uniA, detA, osc2Semi, osc2Detune, uniB, detB, oscMix, sub, noise, spread;
+      |                                                                           ^
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp:91:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb.hh:547:
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:192:33: note: in instantiation of member function 'CrapHelper<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>::get_crap' requested here
+  192 |   static Type & get () { return Crap (Type); }
+      |                                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-array.hh:83:36: note: in instantiation of member function 'CrapOrNullHelper<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>::get' requested here
+   83 |     if (unlikely (!length)) return CrapOrNull (Type);
+      |                                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:198:50: note: expanded from macro 'CrapOrNull'
+  198 | #define CrapOrNull(Type) CrapOrNullHelper<Type>::get ()
+      |                                                  ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:89:41: note: in instantiation of member function 'hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>::__item__' requested here
+   89 |   item_t operator * () { return thiz()->__item__ (); }
+      |                                         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:456:55: note: in instantiation of member function 'hb_iter_t<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t &>::operator*' requested here
+  456 |   { while (it && !hb_has (p.get (), hb_get (f.get (), *it))) ++it; }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:482:12: note: in instantiation of member function 'hb_filter_iter_t<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::hb_filter_iter_t' requested here
+  482 |   { return hb_filter_iter_t<Iter, Pred, Proj> (it, p, f); }
+      |            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:369:51: note: in instantiation of function template specialization 'hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::operator()<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, nullptr>' requested here
+  369 | operator | (Lhs&& lhs, Rhs&& rhs) HB_AUTO_RETURN (std::forward<Rhs> (rhs) (std::forward<Lhs> (lhs)))
+      |                                                   ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:424:5: note: in instantiation of function template specialization 'operator|<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>, nullptr>' requested here
+  424 |     | hb_filter (&item_t::is_real)
+      |     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:448:13: note: in instantiation of member function 'hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::iter_items' requested here
+  448 |     + this->iter_items ()
+      |             ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-multimap.hh:78:36: note: in instantiation of member function 'hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::values_ref' requested here
+   78 |     for (const auto &m : multiples.values_ref ())
+      |                                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_hashmap_t<unsigned int, Triple>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_hashmap_t<unsigned int, Triple>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<hb_hashmap_t<unsigned int, Triple>>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-layout-common.hh:2688:15: note: in instantiation of function template specialization 'hb_vector_t<hb_hashmap_t<unsigned int, Triple>>::push<hb_hashmap_t<unsigned int, Triple>>' requested here
+ 2688 |       regions.push (std::move (axis_tuples));
+      |               ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_inc_bimap_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_inc_bimap_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:210:30: note: in instantiation of member function 'CrapHelper<hb_inc_bimap_t>::get_crap' requested here
+  210 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-layout-common.hh:3351:40: note: in instantiation of member function 'hb_vector_t<hb_inc_bimap_t>::push' requested here
+ 3351 |       hb_inc_bimap_t *map = inner_maps.push ();
+      |                                        ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::tuple_delta_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::tuple_delta_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<OT::tuple_delta_t>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:331:11: note: in instantiation of function template specialization 'hb_vector_t<OT::tuple_delta_t>::push<const OT::tuple_delta_t &>' requested here
+  331 |       out.push (*this);
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:192:33: note: in instantiation of member function 'CrapHelper<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>::get_crap' requested here
+  192 |   static Type & get () { return Crap (Type); }
+      |                                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-array.hh:83:36: note: in instantiation of member function 'CrapOrNullHelper<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>::get' requested here
+   83 |     if (unlikely (!length)) return CrapOrNull (Type);
+      |                                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:198:50: note: expanded from macro 'CrapOrNull'
+  198 | #define CrapOrNull(Type) CrapOrNullHelper<Type>::get ()
+      |                                                  ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:89:41: note: in instantiation of member function 'hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>::__item__' requested here
+   89 |   item_t operator * () { return thiz()->__item__ (); }
+      |                                         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:456:55: note: in instantiation of member function 'hb_iter_t<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t &>::operator*' requested here
+  456 |   { while (it && !hb_has (p.get (), hb_get (f.get (), *it))) ++it; }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:482:12: note: in instantiation of member function 'hb_filter_iter_t<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::hb_filter_iter_t' requested here
+  482 |   { return hb_filter_iter_t<Iter, Pred, Proj> (it, p, f); }
+      |            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:369:51: note: in instantiation of function template specialization 'hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::operator()<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, nullptr>' requested here
+  369 | operator | (Lhs&& lhs, Rhs&& rhs) HB_AUTO_RETURN (std::forward<Rhs> (rhs) (std::forward<Lhs> (lhs)))
+      |                                                   ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:424:5: note: in instantiation of function template specialization 'operator|<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>, nullptr>' requested here
+  424 |     | hb_filter (&item_t::is_real)
+      |     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:428:13: note: in instantiation of member function 'hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::iter_items' requested here
+  428 |     + this->iter_items ()
+      |             ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1153:43: note: in instantiation of member function 'hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::iter_ref' requested here
+ 1153 |       for (const auto& _ : point_data_map.iter_ref ())
+      |                                           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::TupleVariationData::tuple_variations_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::TupleVariationData::tuple_variations_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<OT::TupleVariationData::tuple_variations_t>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1611:12: note: in instantiation of function template specialization 'hb_vector_t<OT::TupleVariationData::tuple_variations_t>::push<OT::TupleVariationData::tuple_variations_t>' requested here
+ 1611 |       vars.push (std::move (var_data_tuples));
+      |            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_vector_t<int>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_vector_t<int>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<hb_vector_t<int>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1741:23: note: in instantiation of member function 'hb_vector_t<hb_vector_t<int>>::operator[]' requested here
+ 1741 |       if (!(delta_rows[i].resize (num_cols))) return false;
+      |                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::delta_row_encoding_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::delta_row_encoding_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<OT::delta_row_encoding_t>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1784:19: note: in instantiation of function template specialization 'hb_vector_t<OT::delta_row_encoding_t>::push<OT::delta_row_encoding_t>' requested here
+ 1784 |         encodings.push (std::move (obj));
+      |                   ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::index_map_subset_plan_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::index_map_subset_plan_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<OT::index_map_subset_plan_t>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-hvar-table.hh:207:20: note: in instantiation of member function 'hb_vector_t<OT::index_map_subset_plan_t>::operator[]' requested here
+  207 |     index_map_plans[0].init (*index_maps[0], outer_map, inner_sets, plan, false);
+      |                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_set_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_set_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<hb_set_t>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-subset-cff-common.hh:387:21: note: in instantiation of member function 'hb_vector_t<hb_set_t>::operator[]' requested here
+  387 |       local_closures[i].clear();
+      |                     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::parsed_cs_str_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::parsed_cs_str_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::parsed_cs_str_t>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-subset-cff-common.hh:604:33: note: in instantiation of member function 'hb_vector_t<CFF::parsed_cs_str_t>::operator[]' requested here
+  604 |           return &(*parsed_local_subrs)[context.subr_num];
+      |                                        ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff2_font_dict_values_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff2_font_dict_values_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:456:25: note: in instantiation of member function 'CrapHelper<CFF::cff2_font_dict_values_t>::get_crap' requested here
+  456 |         if (unlikely (font == &Crap (cff2_font_dict_values_t))) goto fail;
+      |                                ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb.hh:272:47: note: expanded from macro 'unlikely'
+  272 | #define unlikely(expr) __builtin_expect (bool(expr), 0)
+      |                                               ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:516:39: note: in instantiation of member function 'OT::cff2::accelerator_templ_t<CFF::cff2_private_dict_opset_t, CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+  516 |     accelerator_t (hb_face_t *face) : accelerator_templ_t (face) {}
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:464:2: note: in instantiation of member function 'hb_vector_t<CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::operator[]' requested here
+  464 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:516:39: note: in instantiation of member function 'OT::cff2::accelerator_templ_t<CFF::cff2_private_dict_opset_t, CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+  516 |     accelerator_t (hb_face_t *face) : accelerator_templ_t (face) {}
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff2_private_dict_values_base_t<CFF::op_str_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:464:2: note: in instantiation of member function 'hb_vector_t<CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>::operator[]' requested here
+  464 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:528:46: note: in instantiation of member function 'OT::cff2::accelerator_templ_t<CFF::cff2_private_dict_opset_subset_t, CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>::accelerator_templ_t' requested here
+  528 |     accelerator_subset_t (hb_face_t *face) : SUPER (face) {}
+      |                                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+6 warnings generated.
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm:35:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.cpp:187:
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm:1636:23: warning: variable 'target' set but not used [-Wunused-but-set-variable]
+ 1636 |             if (auto* target = findCurrentTextInputTarget())
+      |                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1159:2: note: in instantiation of member function 'hb_vector_t<CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::operator[]' requested here
+ 1159 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1360:39: note: in instantiation of member function 'OT::cff1::accelerator_templ_t<CFF::cff1_private_dict_opset_t, CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+ 1360 |     accelerator_t (hb_face_t *face) : SUPER (face)
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff1_font_dict_values_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff1_font_dict_values_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:210:30: note: in instantiation of member function 'CrapHelper<CFF::cff1_font_dict_values_t>::get_crap' requested here
+  210 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1172:21: note: in instantiation of member function 'hb_vector_t<CFF::cff1_font_dict_values_t>::push' requested here
+ 1172 |           font = fontDicts.push ();
+      |                            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1360:39: note: in instantiation of member function 'OT::cff1::accelerator_templ_t<CFF::cff1_private_dict_opset_t, CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+ 1360 |     accelerator_t (hb_face_t *face) : SUPER (face)
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm:1900:17: warning: enumeration value 'NSEventTypeMouseCancelled' not explicitly handled in switch [-Wswitch-enum]
+ 1900 |         switch ([e type])
+      |                 ^~~~~~~~
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm:1900:17: note: add missing switch cases
+ 1900 |         switch ([e type])
+      |                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff1_private_dict_values_base_t<CFF::op_str_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1159:2: note: in instantiation of member function 'hb_vector_t<CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>::operator[]' requested here
+ 1159 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1494:46: note: in instantiation of member function 'OT::cff1::accelerator_templ_t<CFF::cff1_private_dict_opset_subset_t, CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>::accelerator_templ_t' requested here
+ 1494 |     accelerator_subset_t (hb_face_t *face) : SUPER (face) {}
+      |                                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+4 warnings generated.
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_vector_t<hb_aat_map_t::range_flags_t, true>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_vector_t<hb_aat_map_t::range_flags_t, true>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<hb_vector_t<hb_aat_map_t::range_flags_t, true>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-aat-layout-morx-table.hh:1357:23: note: in instantiation of member function 'hb_vector_t<hb_vector_t<hb_aat_map_t::range_flags_t, true>>::operator[]' requested here
+ 1357 |       map->chain_flags[i].push (hb_aat_map_t::range_flags_t {chain->compile_flags (mapper),
+      |                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-aat-layout.cc:217:10: note: in instantiation of member function 'AAT::mortmorx<AAT::morx, AAT::ExtendedTypes, 1836020344>::compile_flags' requested here
+  217 |     morx.compile_flags (mapper, map);
+      |          ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::VariationSelectorRecord' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::VariationSelectorRecord>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-open-type.hh:722:37: note: in instantiation of member function 'CrapHelper<OT::VariationSelectorRecord>::get_crap' requested here
+  722 |     if (unlikely (i >= len)) return Crap (Type);
+      |                                     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-ot-cmap-table.hh:1328:26: note: in instantiation of member function 'OT::ArrayOf<OT::VariationSelectorRecord, OT::IntType<unsigned int>>::operator[]' requested here
+ 1328 |       c->add_link (record[j].defaultUVS, obj_indices[i].first);
+      |                          ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::IndexSubtableRecord' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::IndexSubtableRecord>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<OT::IndexSubtableRecord>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Color/CBDT/CBDT.hh:607:66: note: in instantiation of member function 'hb_vector_t<OT::IndexSubtableRecord>::operator[]' requested here
+  607 |       IndexSubtableRecord* record = c->serializer->embed (records[i]);
+      |                                                                  ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:76:39: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   76 |         const float a0 = startAngle + i * segSpan + segSpan * 0.18f;
+      |                                       ^ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:77:42: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   77 |         const float a1 = startAngle + (i + 1) * segSpan - segSpan * 0.18f;
+      |                                        ~~^~~  ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:364:78: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  364 |         g.drawVerticalLine ((int) (scopeArea.getX() + scopeArea.getWidth() * i / 10.0f), scopeArea.getY(), scopeArea.getBottom());
+      |                                                                            ~ ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:366:81: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  366 |         g.drawHorizontalLine ((int) (scopeArea.getY() + scopeArea.getHeight() * i / 4.0f), scopeArea.getX(), scopeArea.getRight());
+      |                                                                               ~ ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:459:59: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  459 |         auto row = Rectangle<float> (r.getX(), r.getY() + i * h, r.getWidth(), h).reduced (0, 3);
+      |                                                           ^ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.cpp:633:15: warning: declaration shadows a field of 'RawTekEditor' [-Wshadow]
+  633 |     PopupMenu sub;
+      |               ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginEditor.h:177:75: note: previous declaration is here
+  177 |     panic::Knob pw, uniA, detA, osc2Semi, osc2Detune, uniB, detB, oscMix, sub, noise, spread;
+      |                                                                           ^
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:520:104: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  520 |         else if (m.isPitchWheel())                        engine.setPitchBend ((m.getPitchWheelValue() - 8192) / 8192.0f);
+      |                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~  ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:521:81: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  521 |         else if (m.isControllerOfType (1))                engine.setModWheel (m.getControllerValue() / 127.0f);
+      |                                                                               ~~^~~~~~~~~~~~~~~~~~~~ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:522:83: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  522 |         else if (m.isChannelPressure())                   engine.setAftertouch (m.getChannelPressureValue() / 127.0f);
+      |                                                                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~ ~
+/Users/joni/Downloads/PanicRawTek/Source/PluginProcessor.cpp:523:83: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  523 |         else if (m.isAftertouch())                        engine.setAftertouch (m.getAfterTouchValue() / 127.0f);
+      |                                                                                 ~~^~~~~~~~~~~~~~~~~~~~ ~
+[ 87%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_data_structures/juce_data_structures.mm.o
+[ 88%] Linking CXX executable juce_vst3_helper
+6 warnings generated.
+[ 89%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o
+[ 89%] Built target juce_vst3_helper
+[ 89%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.mm.o
+4 warnings generated.
+[ 90%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o
+[ 90%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_audio_devices/juce_audio_devices.mm.o
+[ 92%] Building CXX object CMakeFiles/PanicRawTek.dir/_deps/juce-src/modules/juce_dsp/juce_dsp.mm.o
+20 warnings generated.
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp:91:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb.hh:547:
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:192:33: note: in instantiation of member function 'CrapHelper<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>::get_crap' requested here
+  192 |   static Type & get () { return Crap (Type); }
+      |                                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-array.hh:83:36: note: in instantiation of member function 'CrapOrNullHelper<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>::get' requested here
+   83 |     if (unlikely (!length)) return CrapOrNull (Type);
+      |                                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:198:50: note: expanded from macro 'CrapOrNull'
+  198 | #define CrapOrNull(Type) CrapOrNullHelper<Type>::get ()
+      |                                                  ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:89:41: note: in instantiation of member function 'hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>::__item__' requested here
+   89 |   item_t operator * () { return thiz()->__item__ (); }
+      |                                         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:456:55: note: in instantiation of member function 'hb_iter_t<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t &>::operator*' requested here
+  456 |   { while (it && !hb_has (p.get (), hb_get (f.get (), *it))) ++it; }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:482:12: note: in instantiation of member function 'hb_filter_iter_t<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::hb_filter_iter_t' requested here
+  482 |   { return hb_filter_iter_t<Iter, Pred, Proj> (it, p, f); }
+      |            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:369:51: note: in instantiation of function template specialization 'hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::operator()<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, nullptr>' requested here
+  369 | operator | (Lhs&& lhs, Rhs&& rhs) HB_AUTO_RETURN (std::forward<Rhs> (rhs) (std::forward<Lhs> (lhs)))
+      |                                                   ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:424:5: note: in instantiation of function template specialization 'operator|<hb_array_t<hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::item_t>, hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>, nullptr>' requested here
+  424 |     | hb_filter (&item_t::is_real)
+      |     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:448:13: note: in instantiation of member function 'hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::iter_items' requested here
+  448 |     + this->iter_items ()
+      |             ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-multimap.hh:78:36: note: in instantiation of member function 'hb_hashmap_t<unsigned int, hb_vector_t<unsigned int>>::values_ref' requested here
+   78 |     for (const auto &m : multiples.values_ref ())
+      |                                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_hashmap_t<unsigned int, Triple>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_hashmap_t<unsigned int, Triple>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<hb_hashmap_t<unsigned int, Triple>>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-layout-common.hh:2688:15: note: in instantiation of function template specialization 'hb_vector_t<hb_hashmap_t<unsigned int, Triple>>::push<hb_hashmap_t<unsigned int, Triple>>' requested here
+ 2688 |       regions.push (std::move (axis_tuples));
+      |               ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_inc_bimap_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_inc_bimap_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:210:30: note: in instantiation of member function 'CrapHelper<hb_inc_bimap_t>::get_crap' requested here
+  210 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-layout-common.hh:3351:40: note: in instantiation of member function 'hb_vector_t<hb_inc_bimap_t>::push' requested here
+ 3351 |       hb_inc_bimap_t *map = inner_maps.push ();
+      |                                        ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::tuple_delta_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::tuple_delta_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<OT::tuple_delta_t>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:331:11: note: in instantiation of function template specialization 'hb_vector_t<OT::tuple_delta_t>::push<const OT::tuple_delta_t &>' requested here
+  331 |       out.push (*this);
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:192:33: note: in instantiation of member function 'CrapHelper<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>::get_crap' requested here
+  192 |   static Type & get () { return Crap (Type); }
+      |                                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-array.hh:83:36: note: in instantiation of member function 'CrapOrNullHelper<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>::get' requested here
+   83 |     if (unlikely (!length)) return CrapOrNull (Type);
+      |                                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:198:50: note: expanded from macro 'CrapOrNull'
+  198 | #define CrapOrNull(Type) CrapOrNullHelper<Type>::get ()
+      |                                                  ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:89:41: note: in instantiation of member function 'hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>::__item__' requested here
+   89 |   item_t operator * () { return thiz()->__item__ (); }
+      |                                         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:456:55: note: in instantiation of member function 'hb_iter_t<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t &>::operator*' requested here
+  456 |   { while (it && !hb_has (p.get (), hb_get (f.get (), *it))) ++it; }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:482:12: note: in instantiation of member function 'hb_filter_iter_t<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::hb_filter_iter_t' requested here
+  482 |   { return hb_filter_iter_t<Iter, Pred, Proj> (it, p, f); }
+      |            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-iter.hh:369:51: note: in instantiation of function template specialization 'hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>::operator()<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, nullptr>' requested here
+  369 | operator | (Lhs&& lhs, Rhs&& rhs) HB_AUTO_RETURN (std::forward<Rhs> (rhs) (std::forward<Lhs> (lhs)))
+      |                                                   ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:424:5: note: in instantiation of function template specialization 'operator|<hb_array_t<hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::item_t>, hb_filter_iter_factory_t<bool (item_t::*)() const, const (unnamed struct at /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-algs.hh:228:1) &>, nullptr>' requested here
+  424 |     | hb_filter (&item_t::is_real)
+      |     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-map.hh:428:13: note: in instantiation of member function 'hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::iter_items' requested here
+  428 |     + this->iter_items ()
+      |             ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-meta.hh:76:55: note: expanded from macro 'HB_AUTO_RETURN'
+   76 | #define HB_AUTO_RETURN(E) -> decltype ((E)) { return (E); }
+      |                                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1153:43: note: in instantiation of member function 'hb_hashmap_t<const hb_vector_t<bool> *, hb_vector_t<char>>::iter_ref' requested here
+ 1153 |       for (const auto& _ : point_data_map.iter_ref ())
+      |                                           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::TupleVariationData::tuple_variations_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::TupleVariationData::tuple_variations_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<OT::TupleVariationData::tuple_variations_t>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1611:12: note: in instantiation of function template specialization 'hb_vector_t<OT::TupleVariationData::tuple_variations_t>::push<OT::TupleVariationData::tuple_variations_t>' requested here
+ 1611 |       vars.push (std::move (var_data_tuples));
+      |            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_vector_t<int>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_vector_t<int>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<hb_vector_t<int>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1741:23: note: in instantiation of member function 'hb_vector_t<hb_vector_t<int>>::operator[]' requested here
+ 1741 |       if (!(delta_rows[i].resize (num_cols))) return false;
+      |                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::delta_row_encoding_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::delta_row_encoding_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:219:30: note: in instantiation of member function 'CrapHelper<OT::delta_row_encoding_t>::get_crap' requested here
+  219 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-common.hh:1784:19: note: in instantiation of function template specialization 'hb_vector_t<OT::delta_row_encoding_t>::push<OT::delta_row_encoding_t>' requested here
+ 1784 |         encodings.push (std::move (obj));
+      |                   ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::index_map_subset_plan_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::index_map_subset_plan_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<OT::index_map_subset_plan_t>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../OT/glyf/../../hb-ot-var-hvar-table.hh:207:20: note: in instantiation of member function 'hb_vector_t<OT::index_map_subset_plan_t>::operator[]' requested here
+  207 |     index_map_plans[0].init (*index_maps[0], outer_map, inner_sets, plan, false);
+      |                    ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_set_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_set_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<hb_set_t>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-subset-cff-common.hh:387:21: note: in instantiation of member function 'hb_vector_t<hb_set_t>::operator[]' requested here
+  387 |       local_closures[i].clear();
+      |                     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::parsed_cs_str_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::parsed_cs_str_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::parsed_cs_str_t>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-subset-cff-common.hh:604:33: note: in instantiation of member function 'hb_vector_t<CFF::parsed_cs_str_t>::operator[]' requested here
+  604 |           return &(*parsed_local_subrs)[context.subr_num];
+      |                                        ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff2_font_dict_values_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff2_font_dict_values_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:456:25: note: in instantiation of member function 'CrapHelper<CFF::cff2_font_dict_values_t>::get_crap' requested here
+  456 |         if (unlikely (font == &Crap (cff2_font_dict_values_t))) goto fail;
+      |                                ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb.hh:272:47: note: expanded from macro 'unlikely'
+  272 | #define unlikely(expr) __builtin_expect (bool(expr), 0)
+      |                                               ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:516:39: note: in instantiation of member function 'OT::cff2::accelerator_templ_t<CFF::cff2_private_dict_opset_t, CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+  516 |     accelerator_t (hb_face_t *face) : accelerator_templ_t (face) {}
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:464:2: note: in instantiation of member function 'hb_vector_t<CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::operator[]' requested here
+  464 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:516:39: note: in instantiation of member function 'OT::cff2::accelerator_templ_t<CFF::cff2_private_dict_opset_t, CFF::cff2_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+  516 |     accelerator_t (hb_face_t *face) : accelerator_templ_t (face) {}
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff2_private_dict_values_base_t<CFF::op_str_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:464:2: note: in instantiation of member function 'hb_vector_t<CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>::operator[]' requested here
+  464 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff2-table.hh:528:46: note: in instantiation of member function 'OT::cff2::accelerator_templ_t<CFF::cff2_private_dict_opset_subset_t, CFF::cff2_private_dict_values_base_t<CFF::op_str_t>>::accelerator_templ_t' requested here
+  528 |     accelerator_subset_t (hb_face_t *face) : SUPER (face) {}
+      |                                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1159:2: note: in instantiation of member function 'hb_vector_t<CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::operator[]' requested here
+ 1159 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1360:39: note: in instantiation of member function 'OT::cff1::accelerator_templ_t<CFF::cff1_private_dict_opset_t, CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+ 1360 |     accelerator_t (hb_face_t *face) : SUPER (face)
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff1_font_dict_values_t' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff1_font_dict_values_t>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:210:30: note: in instantiation of member function 'CrapHelper<CFF::cff1_font_dict_values_t>::get_crap' requested here
+  210 |       return std::addressof (Crap (Type));
+      |                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1172:21: note: in instantiation of member function 'hb_vector_t<CFF::cff1_font_dict_values_t>::push' requested here
+ 1172 |           font = fontDicts.push ();
+      |                            ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1360:39: note: in instantiation of member function 'OT::cff1::accelerator_templ_t<CFF::cff1_private_dict_opset_t, CFF::cff1_private_dict_values_base_t<CFF::dict_val_t>>::accelerator_templ_t' requested here
+ 1360 |     accelerator_t (hb_face_t *face) : SUPER (face)
+      |                                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'CFF::cff1_private_dict_values_base_t<CFF::op_str_t>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1159:2: note: in instantiation of member function 'hb_vector_t<CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>::operator[]' requested here
+ 1159 |         privateDicts[i].init ();
+      |         ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-ot-cff1-table.hh:1494:46: note: in instantiation of member function 'OT::cff1::accelerator_templ_t<CFF::cff1_private_dict_opset_subset_t, CFF::cff1_private_dict_values_base_t<CFF::op_str_t>>::accelerator_templ_t' requested here
+ 1494 |     accelerator_subset_t (hb_face_t *face) : SUPER (face) {}
+      |                                              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'hb_vector_t<hb_aat_map_t::range_flags_t, true>' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<hb_vector_t<hb_aat_map_t::range_flags_t, true>>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<hb_vector_t<hb_aat_map_t::range_flags_t, true>>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-aat-layout-morx-table.hh:1357:23: note: in instantiation of member function 'hb_vector_t<hb_vector_t<hb_aat_map_t::range_flags_t, true>>::operator[]' requested here
+ 1357 |       map->chain_flags[i].push (hb_aat_map_t::range_flags_t {chain->compile_flags (mapper),
+      |                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-aat-layout.cc:217:10: note: in instantiation of member function 'AAT::mortmorx<AAT::morx, AAT::ExtendedTypes, 1836020344>::compile_flags' requested here
+  217 |     morx.compile_flags (mapper, map);
+      |          ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::VariationSelectorRecord' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::VariationSelectorRecord>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Var/VARC/../../../hb-open-type.hh:722:37: note: in instantiation of member function 'CrapHelper<OT::VariationSelectorRecord>::get_crap' requested here
+  722 |     if (unlikely (i >= len)) return Crap (Type);
+      |                                     ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-ot-cmap-table.hh:1328:26: note: in instantiation of member function 'OT::ArrayOf<OT::VariationSelectorRecord, OT::IntType<unsigned int>>::operator[]' requested here
+ 1328 |       c->add_link (record[j].defaultUVS, obj_indices[i].first);
+      |                          ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'OT::IndexSubtableRecord' [-Wnontrivial-memcall]
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:186:38: note: in instantiation of function template specialization 'Crap<OT::IndexSubtableRecord>' requested here
+  186 |   static Type & get_crap () { return Crap<Type> (); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-vector.hh:159:14: note: in instantiation of member function 'CrapHelper<OT::IndexSubtableRecord>::get_crap' requested here
+  159 |       return Crap (Type);
+      |              ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:188:38: note: expanded from macro 'Crap'
+  188 | #define Crap(Type) CrapHelper<Type>::get_crap ()
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/OT/Color/CBDT/CBDT.hh:607:66: note: in instantiation of member function 'hb_vector_t<OT::IndexSubtableRecord>::operator[]' requested here
+  607 |       IndexSubtableRecord* record = c->serializer->embed (records[i]);
+      |                                                                  ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_graphics/fonts/harfbuzz/hb-null.hh:179:11: note: explicitly cast the pointer to silence this warning
+  179 |   memcpy (obj, std::addressof (Null (Type)), sizeof (*obj));
+      |           ^
+      |           (void*)
+2 warnings generated.
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm:35:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.cpp:187:
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm:1636:23: warning: variable 'target' set but not used [-Wunused-but-set-variable]
+ 1636 |             if (auto* target = findCurrentTextInputTarget())
+      |                       ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm:1900:17: warning: enumeration value 'NSEventTypeMouseCancelled' not explicitly handled in switch [-Wswitch-enum]
+ 1900 |         switch ([e type])
+      |                 ^~~~~~~~
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm:1900:17: note: add missing switch cases
+ 1900 |         switch ([e type])
+      |                 ^
+20 warnings generated.
+2 warnings generated.
+[ 92%] Linking CXX static library "PanicRawTek_artefacts/Release/libPanic Raw Tek_SharedCode.a"
+[ 92%] Built target PanicRawTek
+[ 93%] Generating PanicRawTek_artefacts/JuceLibraryCode/PanicRawTek_VST3/PkgInfo
+[ 93%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 94%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 95%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 95%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 98%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 98%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 98%] Building CXX object CMakeFiles/PanicRawTek_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm:35:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp:51:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/juce_VST3Headers.h:153:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/base/source/fstring.cpp:41:
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:51:31: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'Steinberg::FVariant' [-Wnontrivial-memcall]
+   51 |         inline FVariant () { memset (this, 0, sizeof (FVariant)); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:51:31: note: explicitly cast the pointer to silence this warning
+   51 |         inline FVariant () { memset (this, 0, sizeof (FVariant)); }
+      |                                      ^
+      |                                      (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:260:10: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'Steinberg::FVariant' [-Wnontrivial-memcall]
+  260 |         memset (this, 0, sizeof (FVariant));
+      |                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:260:10: note: explicitly cast the pointer to silence this warning
+  260 |         memset (this, 0, sizeof (FVariant));
+      |                 ^
+      |                 (void*)
+2 warnings generated.
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm:35:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp:51:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/juce_VST3Headers.h:153:
+In file included from /Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/base/source/fstring.cpp:41:
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:51:31: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'Steinberg::FVariant' [-Wnontrivial-memcall]
+   51 |         inline FVariant () { memset (this, 0, sizeof (FVariant)); }
+      |                                      ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:51:31: note: explicitly cast the pointer to silence this warning
+   51 |         inline FVariant () { memset (this, 0, sizeof (FVariant)); }
+      |                                      ^
+      |                                      (void*)
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:260:10: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'Steinberg::FVariant' [-Wnontrivial-memcall]
+  260 |         memset (this, 0, sizeof (FVariant));
+      |                 ^
+/Users/joni/Downloads/PanicRawTek/build/_deps/juce-src/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fvariant.h:260:10: note: explicitly cast the pointer to silence this warning
+  260 |         memset (this, 0, sizeof (FVariant));
+      |                 ^
+      |                 (void*)
+2 warnings generated.
+[100%] Linking CXX CFBundle shared module "PanicRawTek_artefacts/Release/VST3/Panic Raw Tek.vst3/Contents/MacOS/Panic Raw Tek"
+/Users/joni/Downloads/PanicRawTek/build/PanicRawTek_artefacts/Release/VST3/Panic Raw Tek.vst3: code object is not signed at all
+-- Replacing invalid signature with ad-hoc signature
+/Users/joni/Downloads/PanicRawTek/build/PanicRawTek_artefacts/Release/VST3/Panic Raw Tek.vst3: replacing existing signature
+removing moduleinfo.json
+creating /Users/joni/Downloads/PanicRawTek/build/PanicRawTek_artefacts/Release/VST3/Panic Raw Tek.vst3/Contents/Resources/moduleinfo.json
+[100%] Built target PanicRawTek_VST3
+[  2%] Built target PanicFontData
+[ 82%] Built target PanicPresetData
+[ 93%] Built target PanicRawTek
+[ 94%] Generating PanicRawTek_artefacts/JuceLibraryCode/PanicRawTek_AU/PkgInfo
+[ 94%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[ 94%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[ 97%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[ 98%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[ 98%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[100%] Building CXX object CMakeFiles/PanicRawTek_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[100%] Linking CXX CFBundle shared module "PanicRawTek_artefacts/Release/AU/Panic Raw Tek.component/Contents/MacOS/Panic Raw Tek"
+[100%] Built target PanicRawTek_AU

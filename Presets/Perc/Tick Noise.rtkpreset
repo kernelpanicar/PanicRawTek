@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Tick Noise" category="Perc" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="3"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="noise" value="1.0"/>
+  <PARAM id="filterMode" value="3"/>
+  <PARAM id="cutoff" value="7000"/>
+  <PARAM id="reso" value="0.2"/>
+  <PARAM id="envAmt" value="0.0"/>
+  <PARAM id="aD" value="0.025"/>
+  <PARAM id="aR" value="0.02"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="distAmt" value="0.2"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="4.4"/>
+</RawTekPreset>

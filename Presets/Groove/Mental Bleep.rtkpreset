@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Mental Bleep" category="Groove" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="3"/>
+  <PARAM id="osc2Wave" value="3"/>
+  <PARAM id="osc2Semi" value="19"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="fm" value="0.35"/>
+  <PARAM id="fmEnv" value="0.5"/>
+  <PARAM id="filterMode" value="2"/>
+  <PARAM id="cutoff" value="2200"/>
+  <PARAM id="reso" value="0.5"/>
+  <PARAM id="envAmt" value="0.2"/>
+  <PARAM id="aD" value="0.09"/>
+  <PARAM id="aR" value="0.08"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="dlyMix" value="0.3"/>
+  <PARAM id="dlyDiv" value="12"/>
+  <PARAM id="dlyFb" value="0.5"/>
+  <PARAM id="dlyTone" value="0.45"/>
+  <PARAM id="dlyPing" value="1"/>
+  <PARAM id="revMix" value="0.2"/>
+  <PARAM id="revSize" value="0.5"/>
+  <PARAM id="revDamp" value="0.45"/>
+  <PARAM id="revPre" value="0.01"/>
+  <PARAM id="revLowCut" value="150"/>
+  <PARAM id="m1Src" value="7"/>
+  <PARAM id="m1Dst" value="4"/>
+  <PARAM id="m1Amt" value="0.1"/>
+  <PARAM id="distAmt" value="0.25"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="-0.0"/>
+</RawTekPreset>

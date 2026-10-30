@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Factory Clang" category="Metal" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="1"/>
+  <PARAM id="osc2Semi" value="11"/>
+  <PARAM id="osc2Detune" value="23"/>
+  <PARAM id="ring" value="0.8"/>
+  <PARAM id="filterMode" value="2"/>
+  <PARAM id="cutoff" value="1800"/>
+  <PARAM id="reso" value="0.6"/>
+  <PARAM id="envAmt" value="0.4"/>
+  <PARAM id="fD" value="0.15"/>
+  <PARAM id="aD" value="0.25"/>
+  <PARAM id="aR" value="0.2"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="distType" value="2"/>
+  <PARAM id="distAmt" value="0.4"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="-3.4"/>
+</RawTekPreset>

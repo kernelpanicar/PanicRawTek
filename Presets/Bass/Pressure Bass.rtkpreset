@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Pressure Bass" category="Bass" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="2"/>
+  <PARAM id="pw" value="0.15"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="sub" value="0.5"/>
+  <PARAM id="cutoff" value="180"/>
+  <PARAM id="reso" value="0.2"/>
+  <PARAM id="envAmt" value="0.6"/>
+  <PARAM id="fD" value="0.07"/>
+  <PARAM id="pitchEnv" value="12"/>
+  <PARAM id="pitchDecay" value="0.015"/>
+  <PARAM id="aD" value="0.2"/>
+  <PARAM id="aS" value="0.3"/>
+  <PARAM id="distType" value="0"/>
+  <PARAM id="distAmt" value="0.5"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-5.6"/>
+</RawTekPreset>

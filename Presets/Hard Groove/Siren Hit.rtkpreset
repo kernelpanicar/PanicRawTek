@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Siren Hit" category="Hard Groove" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="1"/>
+  <PARAM id="osc2Semi" value="7"/>
+  <PARAM id="pitchEnv" value="-7"/>
+  <PARAM id="pitchDecay" value="0.3"/>
+  <PARAM id="cutoff" value="2500"/>
+  <PARAM id="reso" value="0.3"/>
+  <PARAM id="envAmt" value="0.1"/>
+  <PARAM id="aD" value="0.5"/>
+  <PARAM id="aR" value="0.3"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="revMix" value="0.3"/>
+  <PARAM id="revSize" value="0.55"/>
+  <PARAM id="revDamp" value="0.45"/>
+  <PARAM id="revPre" value="0.01"/>
+  <PARAM id="revLowCut" value="150"/>
+  <PARAM id="distType" value="1"/>
+  <PARAM id="distAmt" value="0.35"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-3.9"/>
+</RawTekPreset>

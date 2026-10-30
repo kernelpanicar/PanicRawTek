@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Obscure Arp" category="Hard Groove" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="3"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Semi" value="12"/>
+  <PARAM id="osc2Detune" value="4"/>
+  <PARAM id="oscMix" value="0.3"/>
+  <PARAM id="fm" value="0.15"/>
+  <PARAM id="cutoff" value="2000"/>
+  <PARAM id="reso" value="0.3"/>
+  <PARAM id="envAmt" value="0.4"/>
+  <PARAM id="fD" value="0.1"/>
+  <PARAM id="aD" value="0.2"/>
+  <PARAM id="aR" value="0.15"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="dlyMix" value="0.35"/>
+  <PARAM id="dlyDiv" value="12"/>
+  <PARAM id="dlyFb" value="0.55"/>
+  <PARAM id="dlyTone" value="0.45"/>
+  <PARAM id="dlyPing" value="1"/>
+  <PARAM id="revMix" value="0.25"/>
+  <PARAM id="revSize" value="0.6"/>
+  <PARAM id="revDamp" value="0.45"/>
+  <PARAM id="revPre" value="0.01"/>
+  <PARAM id="revLowCut" value="150"/>
+  <PARAM id="distAmt" value="0.2"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="8.4"/>
+</RawTekPreset>

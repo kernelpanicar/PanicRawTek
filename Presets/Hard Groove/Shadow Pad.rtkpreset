@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Shadow Pad" category="Hard Groove" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Semi" value="7"/>
+  <PARAM id="uniA" value="7"/>
+  <PARAM id="detA" value="0.35"/>
+  <PARAM id="uniB" value="5"/>
+  <PARAM id="detB" value="0.3"/>
+  <PARAM id="spread" value="0.9"/>
+  <PARAM id="oscMix" value="0.35"/>
+  <PARAM id="cutoff" value="600"/>
+  <PARAM id="reso" value="0.3"/>
+  <PARAM id="envAmt" value="0.1"/>
+  <PARAM id="aA" value="0.8"/>
+  <PARAM id="aS" value="1.0"/>
+  <PARAM id="aR" value="2.0"/>
+  <PARAM id="lfo2Wave" value="1"/>
+  <PARAM id="lfo2Rate" value="0.08"/>
+  <PARAM id="m1Src" value="2"/>
+  <PARAM id="m1Dst" value="1"/>
+  <PARAM id="m1Amt" value="0.3"/>
+  <PARAM id="revMix" value="0.5"/>
+  <PARAM id="revSize" value="0.9"/>
+  <PARAM id="revDamp" value="0.45"/>
+  <PARAM id="revPre" value="0.01"/>
+  <PARAM id="revLowCut" value="150"/>
+  <PARAM id="chMix" value="0.4"/>
+  <PARAM id="chRate" value="0.4"/>
+  <PARAM id="chDepth" value="0.5"/>
+  <PARAM id="distAmt" value="0.15"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="4.5"/>
+</RawTekPreset>

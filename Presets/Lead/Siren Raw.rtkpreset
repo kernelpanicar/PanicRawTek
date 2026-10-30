@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Siren Raw" category="Lead" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="1"/>
+  <PARAM id="osc2Wave" value="0"/>
+  <PARAM id="osc2Semi" value="7"/>
+  <PARAM id="osc2Detune" value="4"/>
+  <PARAM id="cutoff" value="2000"/>
+  <PARAM id="reso" value="0.4"/>
+  <PARAM id="envAmt" value="0.2"/>
+  <PARAM id="lfoWave" value="1"/>
+  <PARAM id="lfoRate" value="0.5"/>
+  <PARAM id="lfoPitch" value="0.08"/>
+  <PARAM id="aS" value="0.9"/>
+  <PARAM id="distType" value="1"/>
+  <PARAM id="distAmt" value="0.4"/>
+  <PARAM id="glide" value="0.05"/>
+  <PARAM id="mode" value="0"/>
+  <PARAM id="volume" value="-7.6"/>
+</RawTekPreset>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RawTekPreset name="Steel String" category="Pluck" author="Panic Audio" version="3">
+  <PARAM id="osc1Wave" value="0"/>
+  <PARAM id="oscMix" value="0.0"/>
+  <PARAM id="noise" value="0.4"/>
+  <PARAM id="cutoff" value="40"/>
+  <PARAM id="reso" value="0.0"/>
+  <PARAM id="envAmt" value="1.0"/>
+  <PARAM id="fA" value="0.0005"/>
+  <PARAM id="fD" value="0.02"/>
+  <PARAM id="combMix" value="1.0"/>
+  <PARAM id="combTune" value="12"/>
+  <PARAM id="combFb" value="0.98"/>
+  <PARAM id="combDamp" value="0.08"/>
+  <PARAM id="keyTrack" value="0.0"/>
+  <PARAM id="aD" value="2.0"/>
+  <PARAM id="aR" value="0.8"/>
+  <PARAM id="aA" value="0.001"/>
+  <PARAM id="aS" value="0.0"/>
+  <PARAM id="distType" value="0"/>
+  <PARAM id="distAmt" value="0.25"/>
+  <PARAM id="mode" value="1"/>
+  <PARAM id="volume" value="6.1"/>
+</RawTekPreset>
